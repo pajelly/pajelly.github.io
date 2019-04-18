@@ -293,7 +293,7 @@ p {
 } */
 
 
-/*.p-row-01 {
+.p-row-01 {
   display: flex;
 }
 
@@ -303,7 +303,7 @@ p {
 
 .p-row-03 {
   display: flex;
-}*/
+}
 
 .cr {
   max-width: 900px;
