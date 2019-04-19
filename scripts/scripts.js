@@ -1,14 +1,3 @@
-// mobile menu //
-
-// const $nav = document.querySelector('nav');
-// const $btn = document.querySelector('.mobile-menu');
-
-// $btn.addEventListener('click', function(){
-
-//     $nav.classList.toggle('show');
-
-// });
-
 // Disappearing nav bar on scroll up and down //
 
 var didScroll;
@@ -46,3 +35,24 @@ function hasScrolled() {
 
     // console.log("scrolling");
 }
+
+
+// intro box effect 
+
+window.onscroll = function() {myFunction()};
+
+var introBox = document.getElementById('hero-section');
+var changePoint = 30;
+
+// removeOrange.addEventListener('transitionend', hideEl);
+
+function myFunction() {
+  if (window.pageYOffset >= changePoint) {
+    introBox.classList.add("not-sticky");
+  } else {
+    introBox.style.display = 'inline-flex';
+    introBox.classList.remove("not-sticky");
+
+  }
+}
+

@@ -74,6 +74,7 @@ p {
 
 .wrapper {
   margin: 20px;
+  margin: 0 auto;
 }
 
 .nav-up {
@@ -138,25 +139,23 @@ main {
 .intro-about {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 850px;
+  max-width: 750px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .intro-about img {
   height: 100%;
-  width: 90%;
+  width: 70%;
 }
 
 .key-about {
   margin: 0 auto;
   margin-top: 30px;
+  max-width: 660px;
+  padding: 25px;
 }
 
-/*.name {
-  text-align: center;
-}*/
 
 .intro-text{
   line-height: 1.5em;
@@ -165,11 +164,12 @@ main {
 }
 
 footer {
-border-top: solid 1px black;
+padding: 20px;
 }
 
 .connect {
-  margin-top: 30px;
+  border-top: solid 1px black;
+  padding-top: 30px;
 }
 
 .connect a {
@@ -197,6 +197,53 @@ font-weight: 500;
   background-size: auto 6px;
   background-repeat: repeat-x;
   text-decoration: none;
+}
+
+.email {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.email p {
+  font-size: 13px;
+}
+
+.cr {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.35);
+  max-width: 300px;
+}
+
+.cr p {
+  font-size: 11px;
+}
+
+/*media queries here*/
+
+@media screen and (min-width: 680px){
+
+  .header-all {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .key-about {
+    padding: 0;
+  }
+
+  footer {
+    padding: 40px;
+  }
 }
 
 

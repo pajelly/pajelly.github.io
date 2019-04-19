@@ -111,6 +111,11 @@ p {
   color: rgba(0, 0, 0, 0.35);
 }
 
+.hero-section {
+  transition: opacity 0.7s ease-in-out;
+  margin: 0 auto;
+}
+
 
 /*updated mobile menu styling*/
 
@@ -191,6 +196,28 @@ p {
  transform: translate(0px, -8px);
 }
 
+/* container box styling */
+
+.project-02 .container {
+  height: 330px;
+}
+
+.project-03 .container {
+  height: 280px;
+}
+
+.project-05 .container {
+  height: 220px;
+}
+
+.project-06 .container {
+  height: 170px;
+}
+
+.container-end {
+max-height: 150px;
+}
+
 /* footer designs */
 
 .cr {
@@ -237,6 +264,21 @@ p {
   display: block;
 }
 
+.portfolio-wrapper {
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container-end {
+  width: 300px;
+  margin: 0 auto;
+}
+
 }
 
 @media screen and (min-width: 600px){
@@ -264,6 +306,23 @@ p {
   margin-bottom: 50px;
 }
 
+.hero-section {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  z-index: -50;
+  margin-bottom: 100px;
+}
+
+.not-sticky {
+  opacity: 0;
+}
+
+.portfolio-wrapper {
+
+}
+
 .box {
   padding-bottom: 0px;
 }
@@ -286,13 +345,13 @@ p {
   max-width: 300px;
 }
 
-.project-02 .container {
+/*.project-02 .container {
   height: 330px;
-}
+}*/
 
-.project-03 .container {
+/*.project-03 .container {
   height: 280px;
-}
+}*/
 
 .project-04 .container {
  position: relative;
@@ -328,6 +387,7 @@ p {
 position: relative;
 top: -110px;
 max-height: 150px;
+width: 620px;
 }
 
 /*.container-end img {
