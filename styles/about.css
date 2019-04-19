@@ -146,12 +146,13 @@ main {
 
 .intro-about img {
   height: 100%;
-  width: 70%;
+  width: 90%;
+  margin-top: 30px;
 }
 
 .key-about {
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 10px;
   max-width: 660px;
   padding: 25px;
 }
@@ -224,6 +225,19 @@ font-weight: 500;
 
 /*media queries here*/
 
+@media screen and (min-width: 500px){
+
+  .intro-about img {
+    width: 80%;
+  }
+
+  .key-about {
+  margin-top: 30px;
+}
+
+
+}
+
 @media screen and (min-width: 680px){
 
   .header-all {
@@ -243,6 +257,7 @@ font-weight: 500;
 
   footer {
     padding: 40px;
+    padding-top: 20px;
   }
 }
 
