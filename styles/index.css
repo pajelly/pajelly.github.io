@@ -154,7 +154,7 @@ p {
 }
 
 .box {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -245,7 +245,7 @@ p {
 
 @media screen and (min-width: 680px){
 
-  .header-all {
+.header-all {
   max-width: 750px;
   margin: 0 auto;
   margin-top: 20px;
@@ -264,6 +264,9 @@ p {
   margin-bottom: 50px;
 }
 
+.box {
+  padding-bottom: 0px;
+}
 
 .p-row-01 {
   display: flex;
