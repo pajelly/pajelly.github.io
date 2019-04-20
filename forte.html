@@ -4,28 +4,44 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>pj - Fitness is my Forte</title>
-	<!-- <link rel="stylesheet" href="../../styles/forte_style.css"> -->
-	<link href="https://fonts.googleapis.com/css?family=Karla|Space+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="styles/core_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla|Space+Mono|Fira+Mono" rel="stylesheet">
 </head>
 
 <body>
 	<div class="wrapper">
 
-		<header>
-		</header>
+			<header class="nav-down">
+				<div class="header-all">
+					<div class ="name-logo">
+						<h3><a href="index.html">PJ.</a></h3>
+					</div>
+
+					<div id="nav" class="nav">
+						<nav class="page-nav">
+							<ul>
+								<li><a href="index.html" class="active">works</a></li>
+								<li><a href="about.html">about</a></li>
+							</ul>
+						</nav>
+					</div><!-- end of nav bar -->
+				</div><!-- end of header all section -->		
+			</header>
 
 		<main class="core">
-			<div class="core project-content">
-			<img src="../../current/forte/forte-images/jrh-casecover.jpg" alt="project-image" class="open-img">
+
+		<div class="core project-content">
+
+			<img src="images/placeholder.png" alt="project-image" class="open-img">
 
 			<div class="brief">
-				<div class="brief-title">
-					<h1 class="project-title">Fitness is my Forte</h1>
-						<h2 class="sub-title">Web design, UX design, WordPress</h2>
-							<h3 class="timeline">BCIT client project<br>(4 weeks)</h3>
-				</div>
+			<!-- <div class="brief-title"> -->
+				<h1 class="project-title">Fitness is my Forte</h1>
+				<h2 class="sub-title">Web design, UX design, WordPress</h2>
+				<h3 class="timeline">4 weeks</h3>
+			<!-- </div> -->
 
-				<div class="summary">
+			<div class="summary">
 					<p class="text">Fitness is My Forte is a website created for Jennifer RH, a local personal fitness trainer with no previous website or brand identity.</p>
 					<p class="project-brief-bottom text">Over the last few years, Jennifer had been thinking about opening her own fitness training business after several requests from friends and family, and has decided that this was the year to begin it.</p>
 				</div>
@@ -59,8 +75,8 @@
 					</div>
 
 					<div class="questions-context">
-
-						<img src="../../current/forte/forte-images/forte-question-v02.jpg" alt="image of forte question" class="forte-question">
+						
+						<img src="images/placeholder.png" alt="image of forte question" class="forte-question">
 
 						<h2 class="page-titles sig">The context.</h2>
 
@@ -84,6 +100,7 @@
 
 
 				<p class="section-title">Discovery</p>
+
 					<div class="discovery-content">
 						<h2 class="discovery-title sig">The exploration.</h2>
 						<p class="text">The primary goal for Jennifer's site was to display her services, and offer a way of contact for clients to reach her. Knowing this, we began with a content-first approach in creating her product.</p>
@@ -111,6 +128,7 @@
 				</div>
 
 			<p class="section-title">Creation</p>
+
 				<div class="creation-content">
 						<h2 class="creation-title sig">Brand guide.</h2>
 
@@ -168,6 +186,7 @@
 				</div>
 
 			<p class="section-title">Development</p>
+
 				<div class="development-content">
 				
 						<h2 class="development-title sig">Implementing WordPress.</h2>
@@ -176,6 +195,7 @@
 				</div>
 
 			<p class="section-title">Deliverables</p>
+
 				<div class="deliverables-content">
 						<!-- <h2 class="deliverables-title sig"></h2> -->
 						<p class="text">After the site was developed on our local sites, it was time to hand it off to the client on her own hosting site.</p>
@@ -186,10 +206,13 @@
 
 						<p class="text">And that wraps up our one month client project! Check it out :)</p>
 
-						<div class="site-link"><a href="http://www.jenniferrhfitness.com/"><p>Live site here!</p></div></a>
+						<div class="site-link">
+							<a href="http://www.jenniferrhfitness.com/"><p>Live site here!</p></a>
+						</div>
 				</div>
 
 			<p class="section-title">Reflections</p>
+
 				<div class="reflections-content">
 						<!-- <h2 class="deliverables-title sig"></h2> -->
 						<p class="text">In the end, there were several things I still would have liked to have changed if allowed the time and if our design/development skills were stronger.</p>
@@ -201,11 +224,27 @@
 						<p class="text">However, I am immensely proud of my team and I for creating our first ever 'proper' website! It gave us a chance to see what a front-end developer does on a daily basis as well as what freelance work might be like!</p>
 
 						<p class="text">Overall, we hope that Jennifer's fitness service will continue to grow, especially with the addition of an online platform! <br><br> Thanks for reading!</p>
+				</div><!-- end of reflections content -->
+			</div>
+
+
+
 		</main>
 
+			<footer>
+				<div class="cr">
+					<!-- <p>&copy; 2019 Peijia Ding</p> -->
+					<p class="hide">&copy; 2019 Peijia Ding. Coded with &#9825;.</p>
+				</div>
+			</footer>
+		</div><!-- end of wrapper -->
 
+			<!-- scripts here -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="scripts/scripts.js"></script>
 
-	</div><!-- end of wrapper -->
-
-
-</body>
+	</body>
+</html>

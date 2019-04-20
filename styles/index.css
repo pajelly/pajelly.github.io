@@ -266,7 +266,7 @@ max-height: 150px;
 
 .portfolio-wrapper {
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 50px;
 }
 
 .container {
@@ -281,7 +281,7 @@ max-height: 150px;
 
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
 
 }
 
@@ -320,8 +320,9 @@ max-height: 150px;
 }
 
 .portfolio-wrapper {
-
+  margin-top: 250px;
 }
+
 
 .box {
   padding-bottom: 0px;

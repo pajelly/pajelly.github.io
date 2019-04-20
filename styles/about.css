@@ -229,6 +229,7 @@ font-weight: 500;
 
   .intro-about img {
     width: 80%;
+    margin-top: 30px;
   }
 
   .key-about {
