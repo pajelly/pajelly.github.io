@@ -104,7 +104,6 @@ p {
 }
 
 .name-logo a:hover {
-  /*color: white;*/
   color: rgba(0, 0, 0, 0.35);
 }
 
@@ -145,8 +144,7 @@ main {
 }
 
 .intro-about img {
-  /*height: 100%;*/
-  width: 90%;
+  width: 85%;
   margin-top: 30px;
 }
 
@@ -224,7 +222,6 @@ font-weight: 500;
 }
 
 .hide {
-  /*color: rgba(0, 0, 0, 0.35);*/
   font-size: 10px;
 }
 
@@ -237,14 +234,13 @@ font-weight: 500;
 @media screen and (min-width: 500px){
 
   .intro-about img {
-    width: 80%;
+    width: 85%;
     margin-top: 30px;
   }
 
   .key-about {
   margin-top: 30px;
 }
-
 
 }
 
@@ -259,6 +255,10 @@ font-weight: 500;
   .wrapper {
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .intro-about img {
+    width: 87%;
   }
 
   .key-about {

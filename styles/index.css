@@ -11,11 +11,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  /*background-color: #5D7E82;*/
   background-color: #F8F8F8;
-  /*background-color: #C6C6C6;*/
-  /*background-color: #95B4B7;*/
-  /*background-color: #fff9f9;*/
   font-family: 'Avenir', sans-serif;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
@@ -107,7 +103,6 @@ p {
 }
 
 .name-logo a:hover {
-  /*color: white;*/
   color: rgba(0, 0, 0, 0.35);
 }
 
@@ -141,8 +136,6 @@ p {
 .convo-intro {
   color: rgba(0, 0, 0, 0.35);
   color: black;
-  /*color: #F5F5F5;*/
-  /*font-family: 'Space Mono', monospace;*/
   font-family: 'Fira Mono', monospace;
   margin-top: 80px;
 }
@@ -188,15 +181,8 @@ p {
   transition: transform 0.35s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-/*
-.container .one img {
-  height: 400px;
-  width: 300px;
-  object-fit: cover;
-}*/
 
 .container-end {
-  /*background-color: #FFD9C2;*/
   height: 200px;
   border-radius: 10px;
   position: relative;
@@ -340,13 +326,11 @@ max-height: 150px;
 }
 
 .links p{
-  /*font-family: 'Space Mono', monospace;*/
   margin-top: 10px;
   font-size: 10px;
 }
 
 .hide {
-  /*color: rgba(0, 0, 0, 0.35);*/
   font-size: 10px;
 }
 
