@@ -162,16 +162,39 @@ p {
   padding-bottom: 20px;
 }
 
+.one span {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 10px;
+  display: none;
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 10px;
+}
+
+.title p {
+  font-size: 1.2em;
+  line-height: 25px;
+}
+
 .container {
-  background-color: red;
   height: 400px;
   border-radius: 10px;
   position: relative;
   transition: transform 0.35s;
 }
 
+.container .one img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+
 .container-end {
-  background-color: red;
+  background-color: #FFD9C2;
   height: 200px;
   border-radius: 10px;
   position: relative;
@@ -194,6 +217,69 @@ p {
  -o-transform: translate(0px, -8px);
  -webkit-transform: translate(0px, -8px);
  transform: translate(0px, -8px);
+}
+
+/* hover overlay styling */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 5px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container-end:hover .overlay {
+  opacity: 1;
+}
+
+.hover-des {
+  font-size: 1.4em;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.overlay.fb {
+  background: linear-gradient(to bottom, #33ccff -1%, #0066ff 101%);
+}
+
+.overlay.goggles {
+  background: linear-gradient(to bottom, #f4c20d -1%, #db3236 101%);
+  height: 330px;
+}
+
+.overlay.forte {
+  background: linear-gradient(to bottom, #96dcdc -1%, #567b91 101%);
+  height: 280px;
+}
+
+.overlay.airbnb {
+  background: linear-gradient(to bottom, #ff7d4f -1%, #ff5a5f 101%);
+}
+
+.overlay.illustrate {
+  background: linear-gradient(to bottom, #ff9900 -1%, #ffcc00 101%);
+  height: 220px;
+}
+
+.overlay.webdev {
+  background: linear-gradient(to bottom, #ff0000 -1%, #660066 101%);
+  height: 170px;
+}
+
+.overlay.floral {
+  background: linear-gradient(to bottom, #638d6f -1%, #406f37 101%);
+  height: 150px;
 }
 
 /* container box styling */
@@ -346,14 +432,6 @@ max-height: 150px;
   max-width: 300px;
 }
 
-/*.project-02 .container {
-  height: 330px;
-}*/
-
-/*.project-03 .container {
-  height: 280px;
-}*/
-
 .project-04 .container {
  position: relative;
  top: -70px;
@@ -381,8 +459,41 @@ max-height: 150px;
   width: 620px;
   margin: 0 auto;
   z-index: -30;
-/*  max-height: 200px;*/
 }
+
+/* hover titles*/
+
+.fb-hover {
+margin-top: 150px;
+}
+
+.google-hover {
+margin-top: 130px;
+
+}
+
+.jrh-hover{
+margin-top: 120px;
+}
+
+.room-hover{
+margin-top: 150px;
+
+}
+
+.art-hover{
+margin-top: 90px;
+}
+
+.web-hover {
+  margin-top: 60px;
+}
+
+.floral-hover {
+  margin-top: 60px;
+}
+
+/* end of hover title for desktop */
 
 .container-end {
 position: relative;
@@ -391,13 +502,23 @@ max-height: 150px;
 width: 620px;
 }
 
-/*.container-end img {
-  height: 200px;
-}*/
+.container-end img {
+  width: 81%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .container-end .description {
   position: relative;
   float: right;
+}
+
+/* hover titles */
+
+.title-end {
+  padding-left: 520px;
+  padding-bottom: 30px;
+  width: 50px;
 }
 
 .cr {
