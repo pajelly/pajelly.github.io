@@ -178,6 +178,7 @@ p {
 .title p {
   font-size: 1.2em;
   line-height: 25px;
+  padding: 15px 10px 1px 10px;
 }
 
 .container {
@@ -185,16 +186,17 @@ p {
   border-radius: 10px;
   position: relative;
   transition: transform 0.35s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-
+/*
 .container .one img {
   height: 400px;
   width: 300px;
   object-fit: cover;
-}
+}*/
 
 .container-end {
-  background-color: #FFD9C2;
+  /*background-color: #FFD9C2;*/
   height: 200px;
   border-radius: 10px;
   position: relative;
@@ -217,6 +219,16 @@ p {
  -o-transform: translate(0px, -8px);
  -webkit-transform: translate(0px, -8px);
  transform: translate(0px, -8px);
+}
+
+/* container background styling */
+
+.container {
+  background-color: white;
+}
+
+.container-end {
+  background-color: white;
 }
 
 /* hover overlay styling */
@@ -343,6 +355,52 @@ max-height: 150px;
 }
 
 /*media queries here*/
+
+@media screen and (min-width: 320px){
+
+  /* image styling for mobile */
+
+.p-img-01 {
+  max-height: 315px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-img-02 {
+  height: 270px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-img-03 {
+ height: 220px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.p-img-04 {
+ height: 340px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.p-img-05 {
+ height: 160px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.p-img-06 {
+ height: 110px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.p-img-07 {
+  height: 90px;
+  width: 100%;
+  object-fit: cover;
+}
 
 @media screen and (min-width: 400px){
 
