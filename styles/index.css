@@ -284,22 +284,21 @@ p {
 /* container box styling */
 
 .project-01 .container {
-  width: 300px;
+  /*width: 300px;*/
 }
 
 .project-02 .container {
   height: 330px;
-  width: 300px;
+  /*width: 300px;*/
 }
 
 .project-03 .container {
   height: 280px;
-  width: 300px;
+  /*width: 300px;*/
 }
 
 .project-04 .container {
-   width: 300px;
-
+   /*width: 300px;*/
 }
 
 .project-05 .container {
@@ -421,7 +420,27 @@ max-height: 150px;
 
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 450px){
+
+/* larger container box styling */
+
+.project-01 .container {
+  width: 300px;
+}
+
+.project-02 .container {
+  height: 330px;
+  width: 300px;
+}
+
+.project-03 .container {
+  height: 280px;
+  width: 300px;
+}
+
+.project-04 .container {
+   width: 300px;
+}
 
 }
 
