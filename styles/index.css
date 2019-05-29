@@ -241,10 +241,11 @@ p {
 }
 
 .hover-des {
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 1.2em;
   text-align: center;
   margin-top: 75px;
+  color: white;
 }
 
 .overlay.fb {
@@ -282,12 +283,23 @@ p {
 
 /* container box styling */
 
+.project-01 .container {
+  width: 300px;
+}
+
 .project-02 .container {
   height: 330px;
+  width: 300px;
 }
 
 .project-03 .container {
   height: 280px;
+  width: 300px;
+}
+
+.project-04 .container {
+   width: 300px;
+
 }
 
 .project-05 .container {
@@ -450,7 +462,6 @@ max-height: 150px;
 .portfolio-wrapper {
   margin-top: 250px;
 }
-
 
 .box {
   padding-bottom: 0px;
