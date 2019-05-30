@@ -252,6 +252,17 @@ footer {
 
 @media screen and (min-width: 680px){
 
+.header-all {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
   .pics_01 img {
     margin: 10px;
   }
