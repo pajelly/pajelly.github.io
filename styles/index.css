@@ -174,11 +174,6 @@ p {
   padding: 15px 10px 1px 10px;
 }
 
-.end-end p {
-  padding-left: 0;
-  padding-bottom: 15px;
-}
-
 .container {
   height: 400px;
   border-radius: 10px;
@@ -588,6 +583,11 @@ width: 620px;
 .container-end .description {
   position: relative;
   float: right;
+}
+
+.end-end p {
+  padding-left: 0;
+  padding-bottom: 15px;
 }
 
 /* hover titles */
