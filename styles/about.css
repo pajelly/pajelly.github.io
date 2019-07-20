@@ -162,6 +162,11 @@ main {
   font-weight: 300;
 }
 
+/*smiley face*/
+span {
+  content: "\263A";
+}
+
 footer {
 padding: 20px;
 }
