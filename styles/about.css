@@ -151,7 +151,7 @@ main {
 .key-about {
   margin: 0 auto;
   margin-top: 10px;
-  max-width: 660px;
+  max-width: 510px;
   padding: 25px;
 }
 
@@ -239,7 +239,7 @@ font-weight: 500;
 @media screen and (min-width: 500px){
 
   .intro-about img {
-    width: 85%;
+    width: 75%;
     margin-top: 30px;
   }
 
@@ -263,7 +263,7 @@ font-weight: 500;
   }
 
   .intro-about img {
-    width: 87%;
+    width: 50%;
   }
 
   .key-about {
