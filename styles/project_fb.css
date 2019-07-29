@@ -1,5 +1,20 @@
 @charset "utf-8";
 
+.internal_link {
+  text-decoration: underline;
+  color: #2E4469;
+  background-color: aliceblue;
+}
+
+.emphasize {
+  background-color: #4882E5;
+  color: #E2E9F5;
+}
+
+.emphasize p {
+
+}
+
 /* video styling */
 
 .video-container {

@@ -65,7 +65,7 @@ img {
 
 p {
   font-size: 14px;
-  line-height: 20px;
+ /* line-height: 20px;*/
   letter-spacing: 0.5px;
   margin: 0;
 }
@@ -169,6 +169,11 @@ p {
 
 /*start of core content*/
 
+.text {
+  line-height: 25px;
+}
+
+
 .core {
   margin-top: 50px;
   margin: 0 auto;
@@ -180,7 +185,7 @@ p {
 }
 
 .overview {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .text {
@@ -193,27 +198,30 @@ p {
   letter-spacing: 0.1em;
   font-size: 1.6em;
   line-height: 1.1em;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .section-title {
   font-family: 'Space Mono', monospace;
   font-size: 1.3em;
   font-weight: 600;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .type-title {
-  font-size: 0.9em;
-  font-weight: 500;
+  font-size: 0.8em;
+  font-weight: 450;
+  color: grey;
+  margin-bottom: 30px;
 }
 
 .timeline{
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 0.9em;
+  font-weight: 400;
   margin-top: 2px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 
@@ -302,7 +310,7 @@ p {
 
 .text {
   font-size: 15px;
-  line-height: 1.5em;
+  line-height: 25px;
 }
 
 .project-title {
