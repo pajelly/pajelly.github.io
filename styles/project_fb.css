@@ -12,7 +12,17 @@
 }
 
 .emphasize p {
+}
 
+.points-made li {
+  list-style: circle;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.emphasize-point li {
+  text-decoration: underline;
 }
 
 /* video styling */
@@ -48,9 +58,15 @@
 
 @media screen and (min-width: 400px){
 
+.project-img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 12px;
+}
+
 .video-container {
   max-height: 400px;
-
 }
  
 }
