@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* dark theme changes to top core elements*/
+
+body {
+  background-color: #484A4B;
+} 
+a {
+  text-decoration: none;
+  /*color: white;*/
+  color: white;
+}
+
+a:hover {
+  /*color: black;*/
+  color: rgba(167, 167, 167);
+}
+
+.name-logo a {
+  color: orange;
+}
+
+.name-logo a:hover {
+  /*color: white;*/
+  color: rgba(167, 167, 167);
+}
+
+/* start of specific changes */
+
+.project-title {
+color: white;
+/*font-family: 'Arimo', sans-serif;*/
+font-family: 'Bai Jamjuree', sans-serif;
+/*font-family: 'monument_extendedregular', sans-serif;*/
+/* GOOD */
+
+}
+
+/*.type-title {
+	color: #D3D3D3;
+}*/
+
+
+/*font-family: 'Gaegu', cursive;*/
+/*SO FUCKING CUTE */
+
+/*font-family: 'Overpass Mono', monospace;*/
+/*font-family: 'Noto Sans JP', sans-serif;}*/
+
+.text {
+	color: #ECECEC;
+}
+
+.clear-img {
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+/* specific media queries */
+
+@media screen and (min-width: 320px){
+
+ 
+}
+
+@media screen and (min-width: 400px){
+
+}
+
+@media screen and (min-width: 680px){
+
+ 
+}
+
+@media screen and (min-width: 1000px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+
+
+
+
+
+
+

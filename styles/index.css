@@ -11,7 +11,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #F8F8F8;
+  /*background-color: #F8F8F8;*/
+  background-color: #fff;
   font-family: 'Avenir', sans-serif;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
@@ -103,7 +104,8 @@ p {
 }
 
 .name-logo a:hover {
-  color: rgba(0, 0, 0, 0.35);
+  /*color: rgba(0, 0, 0, 0.35);*/
+  color: orange;
 }
 
 .hero-section {
@@ -136,12 +138,15 @@ p {
 .convo-intro {
   color: rgba(0, 0, 0, 0.35);
   color: black;
-  font-family: 'Fira Mono', monospace;
+  /*font-family: 'Fira Mono', monospace;*/
+  /*font-family: 'Rubik', sans-serif;*/
+  font-family: 'Bai Jamjuree', sans-serif;
   margin-top: 80px;
 }
 
 .convo-intro p{
   font-size: 12px;
+  line-height: 25px;
   margin-left: 5px;
 }
 
@@ -259,7 +264,7 @@ p {
 }
 
 .overlay.forte {
-  background: linear-gradient(to bottom, #96dcdc -1%, #567b91 101%);
+  background: linear-gradient(to bottom, #2F418F -1%, #BB68BD 101%);
   height: 280px;
 }
 
@@ -273,7 +278,7 @@ p {
 }
 
 .overlay.webdev {
-  background: linear-gradient(to bottom, #ff0000 -1%, #660066 101%);
+  background: linear-gradient(to bottom, #9CD9EC -1%, #EEA4D8 101%);
   height: 170px;
 }
 
@@ -409,6 +414,10 @@ max-height: 150px;
   margin-top: 50px;
 }
 
+/*.convo-intro {
+  max-width: 350px;
+}*/
+
 .container {
   max-width: 300px;
   margin: 0 auto;
@@ -422,6 +431,10 @@ max-height: 150px;
 }
 
 @media screen and (min-width: 450px){
+
+/*.convo-intro {
+  max-width: 400px;
+}*/
 
 /* larger container box styling */
 
@@ -459,11 +472,17 @@ max-height: 150px;
 }
 
 .convo-intro {
-  max-width: 700px;
-  text-align: left;
+  max-width: 600px;
+  /*text-align: left;*/
   margin-left: 2%;
   margin-top: 120px;
   margin-bottom: 50px;
+}
+
+.convo-intro p{
+  font-size: 20px;
+  line-height: 35px;
+  /*font-weight: 300;*/
 }
 
 .hero-section {
@@ -480,7 +499,7 @@ max-height: 150px;
 }
 
 .portfolio-wrapper {
-  margin-top: 250px;
+  margin-top: 330px;
 }
 
 .box {
