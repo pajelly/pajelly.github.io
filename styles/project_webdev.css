@@ -3,7 +3,8 @@
 /* dark theme changes to top core elements*/
 
 body {
-  background-color: #484A4B;
+  /*background-color: #484A4B;*/
+  background-color: #131313;
 } 
 a {
   text-decoration: none;
@@ -24,6 +25,59 @@ a:hover {
   /*color: white;*/
   color: rgba(167, 167, 167);
 }
+
+/* other general styling */
+
+.client-link {
+font-size: 18px;
+/*text-decoration: underline;*/
+/*color: #2E4469;*/
+/*background-color: #FF6E38;*/
+/*width: 400px;*/
+/*font-weight: 600;*/
+}
+
+.client-link {
+  margin-bottom: 0;
+}
+
+.client-link a {
+  color: #FF6E38;
+}
+
+.showme {
+  font-size: 18px;
+  color: #FF6E38;
+  letter-spacing: 0.5px;
+}
+
+.showdis {
+  padding-top: 20px;
+}
+
+.showdat {
+  padding-bottom: 20px;
+}
+
+
+/*#client:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}*/
+
+/*.showme a { position:relative; }
+.showme a span { position:absolute; display:none; z-index:99; }
+.showme a:hover span { display:block; 
+*/
+
+/*.shownow {
+  display: none;
+}*/
+
+
 
 /* start of specific changes */
 
@@ -49,12 +103,28 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 .text {
 	color: #ECECEC;
+  margin-bottom: 15px;
 }
 
 .clear-img {
   width: 400px;
   margin-bottom: 30px;
 }
+
+.support-img {
+  margin-bottom: 30px;
+  width: 400px;
+}
+
+.shownow {
+  display: none;
+}
+
+.summary {
+  margin-top: 50px;
+}
+
+
 
 /* specific media queries */
 
@@ -69,7 +139,37 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 @media screen and (min-width: 680px){
 
- 
+.clear-img {
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.support-img {
+  width: 700px;
+  margin-bottom: 0px;
+  /*margin-bottom: 30px;*/
+}
+
+.section-title {
+  margin-top: 10px;
+}
+
+.showme a { position:relative; }
+
+.showme a span { position:absolute; display:none; z-index:99; left: 190px; top: -190px;}
+
+.showme a:hover span { display:block; width: 300px;
+}
+
+.shownow {
+  display: block;
+}
+
+.shownow img {
+  width: 300px;
+}
+
+.showme2 a span { position:absolute; display:none; z-index:99; left: 130px; top: -40px;}
 }
 
 @media screen and (min-width: 1000px){

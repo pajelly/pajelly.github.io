@@ -55,7 +55,7 @@ ul {
 li {
   list-style: none;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -99,7 +99,7 @@ p {
 .name-logo a {
   text-decoration: none;
   font-family: 'Fira Mono', monospace;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: black;
 }
 
@@ -144,8 +144,8 @@ p {
   margin-top: 80px;
 }
 
-.convo-intro p{
-  font-size: 12px;
+.convo-intro p {
+  font-size: 15px;
   line-height: 25px;
   margin-left: 5px;
 }
