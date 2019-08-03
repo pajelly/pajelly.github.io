@@ -178,6 +178,10 @@ p {
   text-align: left;
 }
 
+.end {
+  margin-top: 25px;
+}
+
 /*.end {
   padding: 10px 30px 30px 30px;
   text-align: left;
