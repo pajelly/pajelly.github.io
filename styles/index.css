@@ -250,12 +250,12 @@ p {
   font-size: 1em;
   line-height: 1.2em;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 155px;
   color: white;
 }
 
 .overlay.fb {
-  background: linear-gradient(to bottom, #2971E6 -1%, #77B5EB 101%);
+  background: linear-gradient(to bottom, #010A1F -1%, #B81232 101%);
 }
 
 .overlay.goggles {

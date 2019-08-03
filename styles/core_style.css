@@ -255,9 +255,9 @@ p {
   font-weight: 600;
 }
 
-.project-subtitle a {
+/*.project-subtitle a {
   font-family: 'Karla', sans-serif;
-}
+}*/
 
 .project-next {
   margin-bottom: 30px;
@@ -305,7 +305,7 @@ p {
 /*title font size change*/
 
 .text {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 33px;
 }
 
