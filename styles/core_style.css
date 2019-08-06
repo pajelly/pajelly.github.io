@@ -11,7 +11,7 @@ body {
   /*font-family: 'Avenir', sans-serif;*/
   font-family: 'Bai Jamjuree', sans-serif;
   margin: 0;
-  display:flex;
+  /*display:flex;*/
   background-color: #fff;
   /*background-color: #F8F8F8;*/
   -webkit-animation: fadein 2.5s;
@@ -226,9 +226,32 @@ p {
   text-align: left;
 }
 
+.under-line {
+  text-decoration: underline;
+}
+
+/*roles section*/
+
 .role-title {
   font-weight: 450;
+  margin-bottom: 20px;
+  font-family: 'Space Mono', monospace;
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+.roleo {
+  font-weight: 500;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: grey;
+  font-size: 17px;
+}
+
+.rolled {
+  font-size: 16px;
+  margin-top: 5px;
   margin-bottom: 10px;
+  line-height: 25px;
 }
 
 .year-specific {
@@ -333,10 +356,10 @@ p {
   text-align: left;
 }
 
-.role-title {
+/*.role-title {
   font-weight: 450;
   margin-bottom: 10px;
-}
+}*/
 
 .year-specific {
   margin-bottom: 30px;

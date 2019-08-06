@@ -13,7 +13,8 @@ body {
   display: flex;
   /*background-color: #F8F8F8;*/
   background-color: #fff;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;
+  /*font-family: 'Avenir', sans-serif;*/
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 }  
