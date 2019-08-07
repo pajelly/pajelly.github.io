@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+#menu {
+    position: fixed;
+    list-style-type: none;
+    right: 10px;
+    top: 20%;
+    width: 100px;
+}
+#menu .highlighted {
+    background-color: yellow;
+}
+#content {
+    margin-right: 120px;
+}
+#section1 {
+    background-color: red;
+    height: 400px;
+}
+#section2 {
+    background-color: blue;
+    height: 200px;
+}
+#section3 {
+    background-color: green;
+    height: 800px;
+}
+
+#section4 {
+    background-color: purple;
+    height: 600px;
+}

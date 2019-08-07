@@ -40,6 +40,18 @@
   padding-top: 25px;
 }
 
+.break-top {
+  padding-top: 75px;
+}
+
+.break-bottom {
+  padding-bottom: 75px;
+}
+
+.break {
+  padding: 75px 0 75px 0;
+}
+
 
 
 .emphasize {
@@ -132,6 +144,12 @@
   padding-bottom: 12px;
 }
 
+.content-img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 12px;
+}
+
 
 .video-container {
   max-height: 400px;
@@ -174,6 +192,27 @@ ul {
 
 .reason-img {
   width: 600px;
+}
+
+/* larger styling inside smaller div */
+
+.content-span {
+  height: 500px;
+}
+
+.content-img img {
+  max-width: 800px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  /*text-align: center;*/
+  position: relative;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.info-specific {
+  margin-top: 40px;
 }
 
 .points-made {

@@ -131,6 +131,10 @@ font-family: 'Bai Jamjuree', sans-serif;
   margin-bottom: 30px;
 }
 
+.content-img {
+  width: 400px;
+}
+
 .secondary-type {
   padding-top: 30px;
 }
@@ -179,6 +183,7 @@ font-family: 'Bai Jamjuree', sans-serif;
   margin-bottom: 0px;
   /*margin-bottom: 30px;*/
 }
+
 
 .section-title {
   margin-top: 70px;
