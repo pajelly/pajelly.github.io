@@ -232,7 +232,7 @@ p {
 
 .jump {
   background-color: #FF6E38;
-  width: 210px;
+  width: 220px;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
@@ -269,7 +269,7 @@ p {
   font-size: 16px;
   margin-top: 5px;
   margin-bottom: 10px;
-  line-height: 25px;
+  line-height: 28px;
 }
 
 .year-specific {

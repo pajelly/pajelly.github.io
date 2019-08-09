@@ -30,6 +30,10 @@
   color: #6B6B6B;
 }
 
+.desktop-soz a {
+  color: #6B6B6B;
+}
+
 .caption {
   font-size: 15px;
   color: #AAAAAA;
@@ -51,6 +55,21 @@
 .break {
   padding: 75px 0 75px 0;
 }
+
+.indent {
+  margin-left: 70px;
+}
+
+.goal-title {
+  color: #FF6E38;
+  font-size: 1.5em;
+}
+
+.hit {
+  color: #FB6128;
+  font-size: 1.2em;
+}
+
 
 
 
@@ -107,6 +126,9 @@
   overflow: hidden;
   position: relative;
   border-radius: 0.5%;
+  background-color: #D9E0E9;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .video-container video {
@@ -190,6 +212,11 @@ ul {
   width: 400px;
 }
 
+.history {
+  width: 300px;
+  padding-bottom: 0;
+}
+
 .reason-img {
   width: 600px;
 }
@@ -209,6 +236,21 @@ ul {
    left: 50%;
    top: 50%;
    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.op-says {
+  margin-top: 190px;
+  margin-bottom: 140px;
+}
+
+.redesign01 {
+  margin-top: 200px;
+  margin-bottom: 160px;
+}
+
+.redesign02 {
+  margin-top: 250px;
+  margin-bottom: 200px;
 }
 
 .info-specific {
