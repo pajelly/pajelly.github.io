@@ -414,6 +414,22 @@ max-height: 150px;
   object-fit: cover;
 }
 
+.jrh-hover {
+  margin-top: 120px;
+}
+
+.art-hover{
+margin-top: 80px;
+}
+
+.web-hover {
+  margin-top: 50px;
+}
+
+.floral-hover {
+  margin-top: 45px;
+}
+
 @media screen and (min-width: 400px){
 
 .page-nav {
@@ -623,10 +639,10 @@ width: 620px;
   float: right;
 }
 
-.end-end p {
+/*.end-end p {
   padding-left: 0;
   padding-bottom: 15px;
-}
+}*/
 
 /* hover titles */
 
