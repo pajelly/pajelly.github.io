@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Peijia Ding - Fake News Real Problems</title>
 	<link rel="stylesheet" href="styles/core_style.css">
+	<link rel="stylesheet" href="styles/case-menu.css">
+	<link rel="stylesheet" href="styles/bottom-other.css">
 	<link rel="stylesheet" href="styles/project_fb.css">
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono|Fira+Mono|Bai+Jamjuree:300,400,500,600" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon-pj.png">
@@ -32,6 +34,21 @@
 
 		<main class="core">
 
+			<span class="mobile-hide"><ul id="menu" class="menu">
+				<li><a href="#section1">Prologue</a></li>
+				<li><a href="#section2">The Introduction</a></li>
+				<li><a href="#section3">The Context</a></li>
+				<li><a href="#section4">The Exploration</a></li>
+				<li><a href="#section5">Reframing the Problem</a></li>
+				<li><a href="#section6"><b>The Redesigns</b></a></li>
+				<li><a href="#section7" class="indepth">Forced Friction</a></li>
+				<li><a href="#section8" class="indepth">Smart Recs</a></li>
+				<li><a href="#section9" class="indepth">Comparison Analysis</a></li>
+				<!-- <li><a href="#section10 indepth">Comparison Analysis</a></li> -->
+				<li><a href="#section10">Going Forward</a></li>
+				<!-- <li><a href="#section12">go here</a></li> -->
+			</ul></span>
+
 			<img src="assets/fakenews/fb-header.jpg" alt="project-img" class="open-img">
 
 			<div class="overview">
@@ -41,7 +58,10 @@
 				<p class="text disclaimer break-bottom">Before I start, I want to state that I am in no way criticizing Facebook or other parties mentioned/used in this case study.  All the work done is an exploration into the issue of fake news. 
 				</p>
 
-				<div class="summary">
+<!-- start of id content -->
+			<!-- <div id="content"> -->
+
+				<div class="summary" id="section1">
 					<p class="text">Earlier this year, after evaluating my old portfolio projects, I realized that I had veered somewhat off track from UX design. So I reached out to some old connections to gain inspiration and to get back on track.
 					</p>
 
@@ -56,7 +76,8 @@
 
 					<p class="text">With the upcoming 2020 U.S. Presidential elections, it looks like it might be time to revisit this problem again. The U.S. isn't the only country whose social and political issues are impacted by fake news. This is a global phenomenon that is widespread, with prevalent examples such as elections in Nigeria (2019) for example: <a href="https://www.bbc.co.uk/news/resources/idt-sh/nigeria_fake_news" class="internal-link">here,</a> <a href="https://www.bbc.com/news/world-africa-48349671" class="internal-link">here</a> and <a href="https://techcrunch.com/2019/05/20/facebook-account-purge-africa-fake-news/" class="internal-link">here</a> or India’s issue with fake news on WhatsApp (2018-19) read about it: <a href="https://www.bbc.com/news/world-asia-india-47797151" class="internal-link">here and <a href="https://www.scmp.com/news/asia/south-asia/article/2185240/how-whatsapp-trying-solve-its-fake-news-problem-india-where" class="internal-link">here</a>.</p>
 
-					<div class="showme showdis break"><p class="text highlight shook" id="client"><a href="#nothing" class="showme no-link">Because fake things like fake news, especially those on digital platforms, have real-life consequences that impact lives around the world. &#128064;&nbsp;<span><img src="assets/fakenews/poof.png" alt="project-img poof" class="shownow"></p></a></span></div>
+					<div class="showme showdis break"><p class="text highlight shook"><a href="#nothing" class="showme no-link">Because fake things like fake news, especially those on digital platforms, have real-life consequences that impact lives around the world. &#128064;&nbsp;<span><img src="assets/fakenews/poof.png" alt="project-img poof" class="shownow"></p></a></span>
+					</div>
 
 					<p class="text">For me, this was an opportunity to get a dig at a complex, multifaceted real world problem that had the humanitarian edge that I was looking for, and to really try to practice UX research and design from start to finish.</p>
 
@@ -87,13 +108,13 @@
 
 					<!-- <p class="text"> 
 					</p> -->
-				</div>
+				<!-- </div> -->
 			</div><!-- end of overview section -->
 
-			<div class="content-all break-top">
+			<div class="break-top">
 				
 				<div class="content-start">
-					<p class="section-title">Introduction.</p>
+					<p class="section-title" id="section2">Introduction.</p>
 
 					<p class="text">Going into university, I knew I was really interested in social impact, human relationships, and how & why people did what they did. But I wanted solve problems creatively. Design allowed a way to combine both these fields together, and this problem was a perfect challenge.</p> 
 
@@ -107,7 +128,7 @@
 
 					<p class="text caption">Remember when the world was suppose to end in 2012... and global warming is real...</p>
 
-					<p class="text break-top">With that said, it’s difficult to even know where to begin for this intricate matter. The issue of fake news is complicated for a lot of reasons:</p>
+					<p class="text break-top" id="section3">With that said, it’s difficult to even know where to begin for this intricate matter. The issue of fake news is complicated for a lot of reasons:</p>
 
 					<!-- point 1 -->
 
@@ -158,10 +179,12 @@
 
 					<p class="text break-top">There’s a lot of other reasons that can explain the causes, processes and perpetuation of fake news. However, I won’t focus on all the reasons due to sheer quantity and complexity but I will focus on what frustrates the users around me (namely, millennials). This generation is aware and skeptical of information from the Internet, but with the amount of information available out there, it's a heavy cognitive load. How can we help solve this?</p>
 
-				</div><!-- end of content-start -->		
+				</div><!-- end of content-start -->
+			</div>
+			<!-- end of content-start -->
 
 				<div class="content-discovery break-top">
-					<p class="section-title">The Exploration.</p>
+					<p class="section-title" id="section4">The Exploration.</p>
 
 					<p class="text">As a millenial, or Gen Z??, I’ve spent almost a decade of being on Facebook (that’s nearly half my life just saying). I personally don’t really use Facebook Newsfeed to check for real-world events, but rather as a source of keeping somewhat up to date with my social circle and as a source of internet meme culture (lol).</p>
 
@@ -211,8 +234,8 @@
 
 				</div><!-- end of content-discovery -->
 
-				<div class="content-reframe break-top section" id="nittygritty">
-					<p class="section-title">Reframing the Problem.</p>
+				<div class="content-reframe break-top" id="nittygritty">
+					<p class="section-title" id="section5">Reframing the Problem.</p>
 					<p class="text">With this in mind, I approached my redesign in 3 main steps:</p>
 
 					<!-- <p class="text">1. <b><span class="under-line">Stay informed:</span> </b></p> -->
@@ -230,8 +253,8 @@
 
 				</div><!-- end of content-reframe -->
 
-				<div class="content-creation section" id="section3">
-					<p class="section-title">The Redesigns.</p>
+				<div class="content-creation" id="section3">
+					<p class="section-title" id="section6">The Redesigns.</p>
 					
 					<p class="text">1. <b><span class="under-line">Stay informed:</span> A practical and cohesive 'get more info' experience</b></p>
 
@@ -249,7 +272,7 @@
 
 					<p class="text break-bottom">If Facebook intends to take a more functional approach to combating fake news by providing contextual information, they should be able to provide relevant, related content that is based around that specific post or event instead of the source of the post (although that is important as well). Essentially, Facebook might benefit from <b><span class="under-line">forced friction</span></b> in its user experience for media posts and shared articles. </p>
 
-					<p class="section-title">FORCED FRICTION:</p>
+					<p class="section-title" id="section7">FORCED FRICTION:</p>
 
 					<p class="text">Forced friction in UX design can be considered as anything that prevents, or slows down the process of the user from completing the task on hand.</p>
 
@@ -273,11 +296,11 @@
 
 					<p class="text">I’ve come to reflect that although the purpose of UX design is to make the experience as seamless as possible, sometimes it might be necessary to induce a little friction for <span class="under-line"><b>conscious thought and action</span></b>. In addition, this might address the issue that I’ve found in Facebook users, which is that they don’t generally click on the ‘ information’ button and that users generally want information that is readily available to them.</p>
 
-					<p class="section-title break-top">SMART RECOMMENDATIONS:</p>
+					<p class="section-title break-top" id="section8">SMART RECOMMENDATIONS:</p>
 
 					<p class="text">Now, I think that Facebook’s ‘information button’ is a pretty powerful tool for providing users with more contextual information. I just think that it’s not being optimized to its best potential, namely - the type of content that is displayed in the tab.</p>
 
-					<div class="showme showdis break"><p class="text highlight shook desktop-soz" id="client"><a href="#nothing" class="showme no-link">Recall the current design for the information tab and some feedback I got from users for it. (hover me, sorry mobile viewers) <span><img src="assets/fakenews/fb-comments.jpg" alt="project-img poof" class="shownow"></p></a></span></div>
+					<div class="showme showdis break"><p class="text highlight shook desktop-soz"><a href="#nothing" class="showme no-link">Recall the current design for the information tab and some feedback I got from users for it. (hover me, sorry mobile viewers) <span><img src="assets/fakenews/fb-comments.jpg" alt="project-img poof" class="shownow"></p></a></span></div>
 
 					<p class="text">This is an opportunity to provide information and articles from alternative perspectives and sources that is related to article on hand. While we ultimately cannot force users to think or act in a certain way, providing relevant context is important for a less biased analysis.</p>
 
@@ -316,7 +339,7 @@
 
 				  	<p class="text caption">Let's see what the big people are saying</p>
 
-				  	<p class="section-title break-top">COMPARISON ANALYSIS:</p>
+				  	<p class="section-title break-top" id="section9">COMPARISON ANALYSIS:</p>
 
 				  	<p class="text">Another idea for this problem is to create a place for comparing and analysis. I think it might be helpful if Facebook automatically compiles articles that you’ve been <b><span class="under-line">reading (or even been exposed to)</span></b>, and sets a space where you can see (compare) what articles other people are reading. The purpose of this space to provide insights and opinions from different demographics (outside of your echo chamber). Furthermore, it can help users become more aware of their current views and interests, but also suggest alternative views at the same time.</p>
 
@@ -334,10 +357,11 @@
 
 					<p class="text highlight break-bottom"><span class="marked">Not only does this encourage better critical thinking for combatting fake news, <span class="under-line"><b>these potential solutions will make it harder for fake content to pass as real news</b></span>.</span></p>
 
-				</div><!-- end of content-creation -->
+				<!-- </div> -->
+			<!-- end of content-creation -->
 
 				<div class="content-reflection">
-					<p class="section-title">Going Forward.</p>
+					<p class="section-title" id="section10">Going Forward.</p>
 					<p class="text">TL;DR (thanks for reading this far, it's pretty long), fake news is a big problem that won't be stopping any time soon. And this problem doesn't just exist on Facebook, but any social media platform.</p>
 
 					<p class="text">Through this exploration, it has taught me to be careful of the subtle nuances in UX design, for example, how do you present information to users without being pushy? (eg. so that they don't leave one platform for another) Or allow the users to feel like they are in control of the information they are exposed to online in an unbiased way?</p>
@@ -352,16 +376,43 @@
 				</div><!-- end of content-reflection -->
 
 				<img src="assets/fakenews/anotherone.gif" class="funny break">
+			</div>
+		</div>
+		<!-- end of id content -->
 
-			</div><!-- end of content-all -->
 
-<!-- 			<div class="bottom">
-				<p class="other-title">Other projects</p>
 
+			<!-- <div class="bottom"> -->
+			<p class="other-title"><span class="notice">Other projects</span></p>
 				<div class="project-each">
 
-					<div class="project-next">
-						<p class="project-subtitle"><a href="#something.html">applesauzee</a></p>
+					<!-- <div class="showmenow"><p class="text recommend"><span><img src="images/ggg-symbol.gif" alt="project-img poof" class="shownow"><a href="goggles.html" class="showmenow no-link"><b>Google UX Design Challenge 2019</a></span></p></b>
+					</div> -->
+
+
+					<!-- project rec 1 -->
+						
+					<div class="showmenow project-next"><p class="recommend project-subtitle"><a href="goggles.html" class="showmenow no-link">Google UX Design Challenge 2019<span><img src="images/ggg-symbol.gif" alt="project-img poof" class="shownow"></a></span></p>
+
+					<p class="project-description">one liner here</p>
+					</div>
+
+					<!-- project rec 2 -->
+
+					<div class="showmenow p2 project-next"><p class="recommend project-subtitle"><a href="goggles.html" class="showmenow no-link">FILLER<span><img src="images/ggg-symbol.gif" alt="project-img poof" class="shownow"></a></span></p>
+
+					<p class="project-description">one liner here</p>
+					</div>
+
+					<!-- project rec 3 -->
+
+					<div class="showmenow p3 project-next"><p class="recommend project-subtitle"><a href="goggles.html" class="showmenow no-link">FILLER<span><img src="images/ggg-symbol.gif" alt="project-img poof" class="shownow"></a></span></p>
+
+					<p class="project-description">one liner here</p>
+					</div>
+
+					<!-- <div class="project-next">
+						<p class="project-subtitle"><a href="#something.html">Google UX Challenge 2019</a></p>
 						<p class="project-description">one liner blah blah</p>
 					</div>
 
@@ -373,13 +424,13 @@
 					<div class="project-next">
 						<p class="project-subtitle"><a href="#something.html">link here</a></p>
 						<p class="project-description">one liner fricking fell from a blackberry bush lols</p>
-					</div>
+					</div> -->
 
 				</div> 
-			</div> -->
+			
 			<!-- end of bottom (other projects) -->
 
-		</main>	
+		
 
 			<footer>
 				<div class="cr">
@@ -387,6 +438,12 @@
 					<p class="hide">&copy; 2019 Peijia Ding. Coded with &#9825;.</p>
 				</div>
 			</footer>
+
+		</main>	
+
+
+		<!-- </div> -->
+		<!-- end of bottom -->
 		</div><!-- end of wrapper -->
 
 		<!-- scripts here -->

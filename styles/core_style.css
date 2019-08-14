@@ -168,6 +168,12 @@ p {
   color: #4A556B;
 }
 
+/* side menu */
+
+#menu {
+  display: none;
+}
+
 
 
 /*start of core content*/
@@ -310,6 +316,10 @@ p {
 @media screen and (min-width: 320px){
 
 /* may need img styling for small mobile*/
+
+.menu {
+  display: none;
+}
 
 }
 

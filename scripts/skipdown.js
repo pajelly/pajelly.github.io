@@ -35,3 +35,22 @@ function highlightSection() {
 };
 
 highlightSection();
+
+
+// hide side menu
+
+$(window).scroll(function() {
+  if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+    $('#menu').hide();
+  }
+  else {
+    $('#menu').show();
+  }
+});
+
+
+// document.onscroll = function() {
+//         if (window.innerHeight + window.scrollY > document.body.clientHeight) {
+//             document.getElementById('menu').style.display='none';
+//         }
+//     }
