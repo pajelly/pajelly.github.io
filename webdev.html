@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Peijia Ding - Web Development</title>
 	<link rel="stylesheet" href="styles/core_style.css">
-		<link rel="stylesheet" href="styles/darkmode.css">
+	<link rel="stylesheet" href="styles/case-menu.css">
+	<link rel="stylesheet" href="styles/bottom-other.css">
+	<link rel="stylesheet" href="styles/darkmode.css">
 	<link rel="stylesheet" href="styles/project_webdev.css">
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono|Fira+Mono|Bai+Jamjuree:300,400,500,600" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon-pj.png">
@@ -33,7 +35,20 @@
 
 		<main class="core">
 
-			
+			<span class="mobile-hide"><ul id="menu" class="menu">
+				<li><a href="#section1"><b><span class="under-line">JRH Fitness</span></b></a></li>
+				<li><a href="#section2">The Challenge</a></li>
+				<li><a href="#section3">The Discovery</a></li>
+				<li><a href="#section4">The Creation</a></li>
+				<li><a href="#section5"><b>The Redesign 2.0</b></a></li>
+				<li><a href="#section6">Development + Deliverables</b></a></li>
+				<li><a href="#section7">Reflections & Going Forward</a></li>
+				<br>
+				<li><a href="#section8"><b><span class="under-line">Eriko Semitsu</span></b></a></li>
+				<li><a href="#section9">An Exploration</a></li>
+				<li><a href="#section10">Content Creation</a></li>
+				<li><a href="#section11">Reflections & Future..?</a></li>
+			</ul></span>
 
 			<img src="assets/webdev/code-title.png" alt="project-img" class="open-img clear-img">
 
@@ -48,7 +63,7 @@
 
 					<p class="section-title goodies">The finished goods. &#8675;</p>
 
-					<div class="showme showdis"><p class="text client-link" id="client">1) A client project for a local <a href="http://www.jenniferrhfitness.com/" class="showme">fitness trainer<span><img src="assets/webdev/koo.jpg" alt="project-img" class="shownow"></p></a></span></div>
+					<div class="showme showdis"><p class="text client-link" id="client">1) A client project for a local <a href="http://www.jenniferrhfitness.com/" class="showme">fitness trainer<span><img src="assets/webdev/red_jrh.jpg" alt="project-img" class="shownow"></p></a></span></div>
 
 					<div class="showme showme2 showdat"><p class="text client-link" id="client">2) A personal project for an award-winning <a href="http://erikosemitsu.info/" class="showme showme2">floral designer<span><img src="assets/webdev/erikoo.jpg" alt="project-img" class="shownow"></p></a></span></div>
 					
@@ -60,13 +75,17 @@
 
 			<div class="content-all">
 				
-				<div class="content-start">
+				<div class="content-start break-top">
 
-					<img src="assets/webdev/notempty.png" alt="project-img" class="support-img specific-support">
+					<img src="assets/webdev/notempty.png" alt="project-img" class="support-img specific-support" id="section1">
 
-					<img src="assets/webdev/koo.jpg" alt="project-img" class="support-img">
+					<img src="assets/webdev/red_jrh.jpg" alt="project-img" class="project-img big-cover">
 
-					<p class="type-title secondary-type">Web Design <br> Front-end Development <br> Product Research</p>
+					<!-- <div class="sidebyeside"> -->
+					<img src="assets/webdev/jrh_phone_upgrade.jpg" alt="project-img" class="project-img phone-cover">
+
+					<p class="type-title secondary-type">Web Design <br> HTML/CSS, WordPress + PHP, JavaScript <br> Product Research</p>
+					<!-- </div> -->
 
 					<!-- <p class="type-title secondary-type">Process:</p>
 					<p class="text">1. Discovery</p> -->
@@ -100,10 +119,16 @@
 
 				<div class="content-discovery">
 
-					<p class="section-title">The challenge.</p>
+					<p class="section-title" id="section2">The challenge.</p>
 					<p class="text">Over the last few years, Jennifer had been thinking about opening her own fitness training business after several requests from friends and family, and has decided that this was the year to begin it.</p>
 
 					<p class="text">My team and I had no experience with creating a fitness website, nor any idea on how to create a brand.</p>
+
+					<p class="big-goal break">But basically, our goal was to create a dynamic informational site from scratch.</p>
+
+					<p class="goal-title">Business goals:</p>
+					<p class="text">1. A dynamic, easy to maintain site where information about her services could be easily discovered, updated, and understood.</p>
+					<p class="text break-bottom">2. Allow clients to contact Jennifer directly (by program guidelines, we were not liable to set up an e-commerce website)</p>
 
 					<p class="text">To further help us understand what other fitness trainers offered, we looked at several sites (some examples <a href="https://carmelrodriguez.com/" class="internal-link">here</a>, <a href="https://www.jillianmichaels.com/" class="internal-link">here</a> and <a href="https://www.tammyhembrow.org/" class="internal-link">here</a>) for competitive analysis and to gain insight into the fitness industry.</p>
 
@@ -111,9 +136,7 @@
 					
 					<!-- <p class="text"></p> -->
 
-					<p class="goal-title">Business goals:</p>
-					<p class="text">1. A dynamic, easy to maintain site where information about her services could be easily discovered, updated, and understood.</p>
-					<p class="text">2. Allow clients to contact Jennifer directly (by program guidelines, we were not liable to set up an e-commerce website)</p>
+
 
 					<!-- <p class="text">And this is the info I found</p>
 
@@ -123,7 +146,7 @@
 				</div><!-- end of content-discovery -->
 
 				<div class="content-insights">
-					<p class="section-title">The discovery.</p>
+					<p class="section-title break-top" id="section3">The discovery.</p>
 
 					<p class="text">To inform our design and development decisions, we conducted an initial survey to inquire users on what they thought about personal training and what they would like to see on a site offering fitness services. We gained insights from 21 random individuals between the ages of 20-30, and some of them were being parents.</p>
 
@@ -133,31 +156,48 @@
 
 					<img src="assets/webdev/forte-needs.jpg" alt="project-img" class="support-img">
 
-					<p class="text">When we asked potential users to reflect on what would interest them in actively seeking out a personal trainer or training services, many of them pointed out that:</p>
+					<p class="text">Other common comments included:</p>
+					<p class="text">- personal training was too expensive!<br>
+						- want to see the trainer as friendly and approachable<br>
+						- health was not a high priority in people's current lifestyles<br>
+						- would only consider a personal trainer if people cannot get the information or specific routine themselves<br>
+					</p>
 
-					<img src="assets/webdev/forte-explain.jpg" alt="project-img" class="support-img">
+					<!-- <p class="text">When we asked potential users to reflect on what would interest them in actively seeking out a personal trainer or training services, many of them pointed out that:</p> -->
 
-					<p class="text">The primary goal for Jennifer's site was to display her services, and offer a way of contact for clients to reach her. Knowing this, we began with a <b class="showshow">content-first approach</b> in creating her product.</p>
+					<!-- <img src="assets/webdev/forte-explain.jpg" alt="project-img" class="support-img"> -->
+
+					<p class="text break">The primary goal for Jennifer's site was to display her services, and offer a way of contact for clients to reach her. Knowing this, we began with a <b class="showshow">content-first approach</b> in creating her product.</p>
 
 					<!-- <p class="text">Ok and from my research i found this stuff</p> -->
 				</div><!-- end of content-insights -->
 
 				<div class="content-reframe">
-					<p class="section-title">The creation.</p>
+					<p class="section-title" id="section4">The creation.</p>
 					<p class="text">To ensure brand consistency, the team decided to create a moodboard and style guide to ensure a cohesive brand impact for the client.</p>
 
-					<img src="assets/webdev/forte-mood.jpg" alt="project-img" class="support-img">
+					<img src="assets/webdev/forte-mood.jpg" alt="project-img" class="support-img break-top">
 
-					<p class="text">Looking back, I think we could have spent more time on researching cohesive colour palettes and design styles so that her brand was more modern and unique. In addition, I think we could have been more assertive in suggesting recommendations, as we ended with an outlier colour that does not necessary work with the black and grey colour palette.</p>
+					<p class="text caption">You might have noticed that this moodboard does not match the branding material shown in this case study, but is reflective of the <a href="http://www.jenniferrhfitness.com/" class="internal-link">actual website</a></p>
 
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="text break"><span class="marked">Looking back, I think we could have spent more time on researching cohesive colour palettes and design styles so that her brand was more modern and unique. In addition, I think we could have been more assertive in suggesting recommendations, as we ended with colours that did not necessary work with the black and grey colour palette.</span></p>
 
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="text">With a content-first approach, we also created an information architecture to guide our WordPress files and directories.</p>
+
+					<img src="assets/webdev/jrh-IA.jpg" alt="project-img" class="support-img break">
+
+					<!-- <p class="text">IA here</p> -->
+
+					<p class="text">After the IA was finalized, we ran through several iterations of the website layout. In hindsight, we should have started with a mobile-first design because we ended up with a lot of code changes trying to re-adjust for the mobile platform...</p>
+			
 				</div><!-- end of content-reframe -->
 
 				<div class="content-creation">
-					<p class="section-title">The redesigns.</p>
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="section-title" id="section5">The redesigns 2.0</p>
+
+					<p class="text">If we had time to rebrand and refine the brand, I would have chosen red as our highlighted color to work with the black and grey colour palette.</p>
+
+					<p class="text">color palette here</p>
 					
 					<!-- <video autoplay loop muted playsinline class="video-container">
 				  		<source src="assets/fakenews/oreos.mov" type="video/mp4">
@@ -170,18 +210,61 @@
 					<p class="text">Ok and from my research i found this stuff</p>
 				</div><!-- end of content-creation -->
 
+				<div class="development-shiz">
+					<p class="section-title" id="section6">The Development.</p>
+					<p class="text">Once the mockup designs were approved with Jennifer, we went ahead with development. We created a custom WordPress site using a starter theme, creating our own taxonomies and hierarchies. Having a Wordpress site would allow Jennifer the flexibility to change and manager her content as her business grew and changed.</p>
+
+					<img src="assets/webdev/forte-WP.png" alt="project-img" class="support-img break-top">
+
+					<p class="text caption">Here's a screenshot if you want to see some code</a></p>
+
+					<p class="section-title">And Deliverables.</p>
+					<p class="text">After the site was developed on our local sites, it was time to hand it off to the client on her own hosting site.</p>
+
+					<p class="text">Well, transferring the content from server to server was kind of really stressful, and took much longer than we had initially thought... but that sums up our one-month capstone project!</p>
+
+					<p class="jump"><a href ="http://www.jenniferrhfitness.com/">Check out the website!</a></p>
+
+
+					
+					<!-- <video autoplay loop muted playsinline class="video-container">
+				  		<source src="assets/fakenews/oreos.mov" type="video/mp4">
+				  	</video> -->
+
+<!-- 					<p class="text">Ok and from my research i found this stuff</p>
+
+					<p class="text">Ok and from my research i found this stuff</p>
+
+					<p class="text">Ok and from my research i found this stuff</p> -->
+				</div><!-- end of content-creation -->
+
 				<div class="content-reflection">
-					<p class="section-title">How we got from there to here.</p>
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="section-title" id="section7">Reflections & Going Forward</p>
+					<p class="text">In the end, there were several things I still would have liked to have changed if allowed the time and if our design/development skills were stronger.</p>
 
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="text">While the starter theme set up a solid base for us to create the site, we faced other issues that we did not expect. The biggest challenge was actually working cohesively and productively as a team. Of course, this led to some poor communication, which resulted in poor code and rushed timelines.</p>
 
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="text">Another problem was getting past the learning curve for unfamiliar software. For this project, we styled the site using SASS and utilized GULP to automate our development workflow. And then we ran into merge conflicts and that was another ordeal LOL. </p>
 
-					<p class="text">Ok and from my research i found this stuff</p>
+					<p class="text">But we rebounded from this by adapting the scrum framework, which really helped us get through our mess.</p>
+
+					<p class="text">All in all, I am immensely proud of my team and I for creating our first ever 'proper' website! (quality and aesthetics is debatable okay) It gave us a chance to see what a front-end developer does on a daily basis as well as what freelance work might be like.</p>
+
+
+					<img src="assets/webdev/office-yeah.gif" alt="project-img" class="support-img break-top">
+
+					<p class="text caption">Woohoo!</p>
+
+				
+					<p class="text break-top">Moving forward, it would have been great if we could have upgraded Jennifer's branding and website, as well as make our code even more effective and simplified. In addition, it would have been really valuable to see our SEO metrics from Google Analytics and apply other forms of digital marketing to further push her site!</p>
+
+					<p class="text break">Thanks for reading! There's another personal project right below <span>&#9786;</span></p>
+
+					<img src="assets/webdev/breaktime.gif" alt="project-img" class="support-img break">
+
 				</div><!-- end of content-reflection -->
 
-				<div class="content-testing">
+				<!-- <div class="content-testing">
 					<p class="section-title">The impact.</p>
 					<p class="text">Ok and from my research i found this stuff RESULTS NOW</p>
 
@@ -190,9 +273,30 @@
 					<p class="text">Ok and from my research i found this stuff RESULTS NOW</p>
 
 					<p class="text">Ok and from my research i found this stuff RESULTS NOW</p>
-				</div><!-- end of content-testing -->
+				</div> --><!-- end of content-testing -->
 
 			</div><!-- end of content-all -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<!-- WEB DEV PROJECT #2 -->
 
@@ -200,7 +304,7 @@
 				
 				<div class="content-start">
 
-					<img src="assets/webdev/erik.png" alt="project-img" class="support-img specific-support">
+					<img src="assets/webdev/erik.png" alt="project-img" class="support-img specific-support" id="section8">
 
 					<img src="assets/webdev/erikoo.jpg" alt="project-img" class="support-img">
 
@@ -309,7 +413,7 @@
 
 					<p class="text">Our results informed us of several things:</p>
 
-					<img src="assets/webdev/forte-idea.jpg" class="project-img">
+					<!-- <img src="assets/webdev/forte-idea.jpg" class="project-img"> -->
 
 					<p class="text">Ok and from my research i found this stuff</p>
 
@@ -369,7 +473,7 @@
 			</div><!-- end of content-all -->
 
 
-			<div class="bottom">
+<!-- 			<div class="bottom">
 				<p class="other-title">Other projects</p>
 
 				<div class="project-each">
@@ -390,7 +494,9 @@
 					</div>
 
 				</div> 
-			</div><!-- end of bottom (other projects) -->
+			</div> -->
+
+			<!-- end of bottom (other projects) -->
 
 		</main>	
 
@@ -408,6 +514,7 @@
   		crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="scripts/scripts.js"></script>
+		<script src="scripts/skipdown.js"></script>
 
 	</body>
 

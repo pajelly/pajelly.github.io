@@ -184,6 +184,18 @@ p {
   font-size: 16px;
 }
 
+.break-top {
+  padding-top: 75px;
+}
+
+.break-bottom {
+  padding-bottom: 75px;
+}
+
+.break {
+  padding: 75px 0 75px 0;
+}
+
 
 .core {
   margin-top: 50px;
@@ -310,6 +322,11 @@ p {
 .project-next {
   margin-bottom: 30px;
 }
+
+/*.marked {
+  background-color: #fff2ac;;
+}*/
+
 
 /*media queries here*/
 

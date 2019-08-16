@@ -9,7 +9,7 @@
 }
 
 #menu a:hover {
-    color: black;
+    color: #363636;
 }
 
 /*#menu .highlighted {
@@ -82,8 +82,9 @@
     list-style-type: none;
     left: 80px;
     top: 30%;
-    width: 100px;
+    width: 120px;
 }
+
 
 #menu li {
     padding: 2px;
