@@ -132,9 +132,9 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 
 
-/*.type-title {
-	color: #D3D3D3;
-}*/
+.type-title {
+	margin-top: 50px;
+}
 
 
 /*font-family: 'Gaegu', cursive;*/
@@ -194,6 +194,10 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 
 @media screen and (min-width: 680px){
+
+.type-title {
+  margin-top: 0px;
+}
 
 .clear-img {
   width: 700px;
