@@ -220,6 +220,30 @@ font-family: 'Bai Jamjuree', sans-serif;
   margin-top: 300px;
 }
 
+
+.big-cover1 {
+  margin-top: 200px;
+}
+
+.big-cover1 img {
+  display: block;
+}
+
+.small-img {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#laptop-img {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+
+
 /*.sidebyside {
   display: flex;}*/
 
