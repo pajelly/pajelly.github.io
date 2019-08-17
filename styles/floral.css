@@ -13,7 +13,8 @@ body {
   display: flex;
   /*background-color: #F8F8F8;*/
   background-color: #fff;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;
+  /*font-family: 'Avenir', sans-serif;*/
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
 }  
@@ -59,7 +60,7 @@ ul {
 li {
   list-style: none;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
 }
 
@@ -73,8 +74,8 @@ img {
 }
 
 p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 23px;
   letter-spacing: 0.5px;
   margin: 0;
 }
@@ -137,6 +138,10 @@ p {
   transition: all 0.3s ease-out;
 }
 
+.breakfast {
+  margin-top: 180px;
+}
+
 /* main floral styling */
 
 .pics_wrapper {
@@ -165,7 +170,7 @@ p {
 }
 
 .img_title p {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .img_description {
@@ -294,7 +299,7 @@ footer {
 
   .middle {
   padding: 0px 35px 0px 35px;
-  width: 300px;
+  width: 500px;
   text-align: right;
 }
 
