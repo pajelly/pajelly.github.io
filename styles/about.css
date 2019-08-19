@@ -164,12 +164,25 @@ main {
   line-height: 1.5em;
   margin-bottom: 15px;
   font-weight: 300;
+  font-size: 16px;
   
 }
 
 .haha-key {
-  font-size: 22px;
+  font-size: 18px;
   font-style: italic; 
+}
+
+.break-top {
+  margin-top: 40px;
+}
+
+.break-top-music {
+  margin-top: 40px;
+}
+
+.stun {
+  font-weight: 500;
 }
 
 /*smiley face*/
@@ -193,6 +206,7 @@ padding: 20px;
 .c-title {
 margin-bottom: 25px;
 font-weight: 500;
+font-size: 16px;
 }
 
 #cee {
@@ -213,14 +227,14 @@ font-weight: 500;
   text-decoration: none;
 }
 
-.email {
+/*.email {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .email p {
-  font-size: 13px;
-}
+  font-size: 14px;
+}*/
 
 .cr {
   font-family: 'Space Mono', monospace;
@@ -262,7 +276,7 @@ font-weight: 500;
 @media screen and (min-width: 680px){
 
   .header-all {
-    max-width: 750px;
+    max-width: 850px;
     margin: 0 auto;
     margin-top: 20px;
   }
