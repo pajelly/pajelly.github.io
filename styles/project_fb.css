@@ -23,7 +23,7 @@
 }
 
 .shook a {
-  color: #FF240A;
+  color: #698DDE;
 }
 
 .shook a:hover {
@@ -65,9 +65,13 @@
   font-size: 1.5em;
 }
 
+.small-break {
+ margin-bottom: 45px;
+}
+
 .hit {
   color: #FB6128;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .funny {
@@ -77,6 +81,9 @@
   border-radius: 0.5%;
 }
 
+.jump {
+  margin-bottom: 30px;
+}
 
 
 
@@ -181,9 +188,9 @@
   max-height: 400px;
 }
 
-ul {
+/*ul {
   min-width: 90%;
-}
+}*/
 
 .points-made {
   padding-bottom: 15px;
@@ -200,6 +207,26 @@ ul {
 }
 
 @media screen and (min-width: 680px){
+
+.team-specifics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prototype {
+  display: flex;
+}
+
+.prototype-text {
+  margin-right: 20px;
+}
+
+.prototype-text p{
+  font-size: 1em;
+  width: 250px;
+}
+
+
 
 .showme p { position:relative; }
 
@@ -242,6 +269,10 @@ ul {
    -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
+.explain {
+  padding-top: 150px;
+}
+
 .op-says {
   margin-top: 190px;
   margin-bottom: 140px;
@@ -257,9 +288,9 @@ ul {
   margin-bottom: 200px;
 }
 
-.info-specific {
+/*.info-specific {
   margin-top: 40px;
-}
+}*/
 
 .points-made {
   width: 500px;
