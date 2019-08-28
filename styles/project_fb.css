@@ -226,6 +226,10 @@
   width: 250px;
 }
 
+.talking {
+  margin-top: 60px;
+}
+
 
 
 .showme p { position:relative; }

@@ -8,6 +8,13 @@
   margin-top: 100px;
   border-top: 1px solid black;
   padding-top: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.project-each {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .notice {
