@@ -374,13 +374,15 @@ p {
 @media screen and (min-width: 680px){
 
 .header-all {
-  max-width: 850px;
+  /*max-width: 850px;*/
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .wrapper {
-  max-width: 600px;
+  /*max-width: 600px;*/
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -432,9 +434,9 @@ p {
   margin-bottom: 2px;
 }
 
-.bottom {
+/*.bottom {
   margin-top: 70px;
-}
+}*/
 
 .other-title {
   font-family: 'Space Mono', monospace;

@@ -8,13 +8,14 @@
   margin-top: 100px;
   border-top: 1px solid black;
   padding-top: 40px;
-  max-width: 600px;
-  margin: 0 auto;
+/*  max-width: 600px;
+  margin: 0 auto;*/
 }
 
-.project-each {
+.bottom {
   max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .notice {
@@ -48,6 +49,8 @@
 .shownow {
 	display: none;
 }
+
+
 
 @media screen and (min-width: 680px){
 
@@ -84,6 +87,9 @@
 
 /*transition: opacity 1s ease-out;*/
 
+.bottom {
+  padding: 0;
+}
 
 
 }

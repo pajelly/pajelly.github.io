@@ -3,6 +3,7 @@
 .disclaimer {
   color: #AAAAAA;
   font-size: 13px;
+  line-height: 20px;
 }
 
 .internal-link {
@@ -10,7 +11,7 @@
 }
 
 .highlight {
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
   color: #6B6B6B;
   /*background-color: #C9D4E0;*/
@@ -62,7 +63,7 @@
 
 .goal-title {
   color: #FF6E38;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .small-break {
@@ -71,7 +72,11 @@
 
 .hit {
   color: #FB6128;
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+
+.small-indent {
+  padding-left: 40px;
 }
 
 .funny {
@@ -253,7 +258,7 @@
 }
 
 .reason-img {
-  width: 600px;
+  width: 650px;
 }
 
 /* larger styling inside smaller div */
