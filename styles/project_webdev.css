@@ -220,7 +220,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 @media screen and (min-width: 680px){
 
 video {
-  max-width: 450px;
+  /*max-width: 450px;*/
   margin: 0 auto;
   display: inherit;
 }
