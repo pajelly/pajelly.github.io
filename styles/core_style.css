@@ -196,14 +196,18 @@ p {
 /*start of core content*/
 
 .text {
-  line-height: 28px;
-  margin: 18px 0 30px 0;
+  line-height: 27px;
+  margin: 30px 0 30px 0;
   font-size: 15px;
 }
 
-.break-top {
-  padding-top: 75px;
+.text-margin {
+  margin: 30px 0 30px 0;
 }
+
+/*.break-top {
+  padding-top: 75px;
+}*/
 
 .break-bottom {
   padding-bottom: 75px;
@@ -217,6 +221,7 @@ p {
 .core {
   margin-top: 50px;
   margin: 0 auto;
+  max-width: 90%;
 }
 
 
@@ -224,8 +229,12 @@ p {
   margin-top: 90px;
 }
 
+
+
+
 .project-title {
-  font-family: 'Space Mono', monospace;
+  /*font-family: 'Space Mono', monospace;*/
+  font-family: 'Open Sans', sans-serif;
   /*text-align: center;*/
   letter-spacing: 0.1em;
   font-size: 1.6em;
@@ -235,11 +244,12 @@ p {
 }
 
 .section-title {
-  font-family: 'Space Mono', monospace;
+  /*font-family: 'Space Mono', monospace;*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  /*margin-bottom: 20px;*/
 }
 
 .type-title {
@@ -390,12 +400,34 @@ p {
   margin-top: 130px;
 }
 
+/* split details */
+
+.written-title {
+  max-width: 200px;
+}
+
+.written {
+  max-width: 450px;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /*title font size change*/
 
-.text {
+
+/* original font*/
+/*.text {
   font-size: 16px;
-  /*line-height: 33px;*/
   line-height: 30px;
+}*/
+
+.text {
+  font-size: 15px;
+  line-height: 27px;
 }
 
 .project-title {

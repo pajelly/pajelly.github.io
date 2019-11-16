@@ -1,3 +1,44 @@
+/* core styling changes */
+.wrapper {
+  /*max-width: 600px;*/
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.header-all {
+  /*max-width: 850px;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#menu {
+  left: 50px;
+}
+ /*case-menu @css line 79*/
+
+.indepth-no{
+    margin-left: 12px;
+}
+
+.disclaimer {
+  color: grey;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/*
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}*/
+
+.gap {
+  margin-top: 30px;
+}
+
+
 /* video styling */
 
 .video-container {
@@ -21,3 +62,5 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
