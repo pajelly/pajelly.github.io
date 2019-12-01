@@ -170,7 +170,9 @@ main {
 
 .haha-key {
   font-size: 18px;
-  font-style: italic; 
+  font-style: italic;
+  color: grey; 
+  /*text-align: center;*/
 }
 
 .break-top {
