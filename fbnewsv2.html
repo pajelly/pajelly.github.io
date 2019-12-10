@@ -45,12 +45,10 @@
 
 		<span class="mobile-hide">
 			<ul id="menu" class="menu">
-				<li><a href="#section2">&#8702; Idea</a></li>
-				<li><a href="#section3">&#8702; Exploration</a></li>
+				<li><a href="#section2">&#8702; The problem</a></li>
+				<li><a href="#section3">&#8702; Analysis</a></li>
 				<li><a href="#section4"><b>&#8702; Design</b></a></li>
-				<li><a href="#section5">&#8702; Future development</a></li>
-				<li><a href="#section6">&#8702; User feedback</a></li>
-				<li><a href="#section7">&#8702; Going forward</a></li>
+				<li><a href="#section5">&#8702; What's next?</a></li>
 			</ul>
 		</span>
 
@@ -74,7 +72,7 @@
 				
 			<div class="content-start split">
 				<div class="written-title">
-					<p class="section-title break-top">The problem.</p>
+					<p class="section-title break-top" id="section2">The problem.</p>
 				</div>
 
 				<div class="written">
@@ -82,12 +80,10 @@
 					<p class="text highlight">This creates a heavy cognitive load, so how we can help reduce it?</p>
 				</div><!-- end of written -->
 			</div><!-- end of content-start -->
-			
-			<img src="assets/fakenews/current-fb.jpg" alt="project-img" class="reason-img">
 
 			<div class="content-discovery break-top split">
 				<div class="written-title">
-					<p class="section-title">Exploration around the issue of fake news.</p>
+					<p class="section-title" id="section3">Exploration around how people percieve the info button.</p>
 				</div>
 				<div class="written">
 					<p class="text">Let’s take a look at Facebook’s current designs in combating fake news. When I asked users about the current design, these lines stood out:</p>
@@ -96,125 +92,90 @@
 				</div>
 			</div><!-- end of content-discovery -->
 
-			<video autoplay loop muted playsinline class="video-container">
-				 <source src="assets/fakenews/oreos.mov" type="video/mp4">
-			</video>
-
-			<div class="content-discovery break-top split">
-				<div class="written-title">
-					<p class="section-title">Redesign 01: Story context.</p>
-				</div>
-				<div class="written">
-					
-					<p class="text">How can we reduce cognitive overload and ease information processing in a neutral and intuitive manner?</p>
-				</div>
-			</div><!-- end of content-discovery -->
-
 			<video autoplay loop muted playsinline class="video-container" id="section4">
-				<source src="assets/end2end/user-start.mp4" type="video/mp4">
-			</video>
-
-
-			<div class="content-reframe break-top split" id="nittygritty">
-				<div class="written-title">
-					<p class="section-title">Show transparency from the start.</p>
-				</div>
-				<div class="written">
-					<p class="text">Similar to how Airbnb is currently displaying listings, only a limited number of listings are shown unless you enter dates and number of guests. This allows Airbnb to provide full transparency from the beginning of the booking process, without having to overpromise on estimated costs.</p>
-				</div>
-			</div><!-- end of content-reframe -->
-
-			<video autoplay loop muted playsinline class="video-container" id="section4">
-				<source src="assets/end2end/user-loading.mp4" type="video/mp4">
+				<source src="assets/fakenews/story_context.mp4" type="video/mp4">
 			</video>
 
 			<div class="content-reframe break-top split" id="nittygritty">
 				<div class="written-title">
-					<p class="section-title">Convey the necessary information.</p>
+					<p class="section-title">Story context: explained.</p>
 				</div>
 				<div class="written">
-					<p class="text">Show users what would be included in the Weekend Break at a quick glance (in consideration with the dates and number of guests going). Although exact estimated costs cannot be confirmed, an approximate price range can be given to inform the user from the start to see if this is something that would fit in their budget.</p>
+					<p class="text">A brief slideshow overlay with critical details is displayved over the article image on auto-scroll. This interaction is triggered by viewport position and hover duration over the post. I chose a moving slideshow so that users are aware of the changing information on their screens, even if they were not initially paying attention to it.</p>
+					<p class="text">There are 3 points to story context:
+						summary article, a contextual timeline, and real-time admendments.
+					</p>
+					<p class="text">These factors have been found to greatly reduce fake news as it breaks down their supposed validity. Having additional information also encourages the user to critically analyze the overall post.</p>
+				</div>
+			</div><!-- end of content-reframe -->
 
-					<p class="text">Furthermore, instead of having a timeline of the steps on the screen, it would be good to notify the users on the loading page of the steps while filters are being applied.</p>
+			<img src="assets/fakenews/current-design.jpg" alt="project-img" class="reason-img">
+
+			<div class="content-reframe break-top split" id="nittygritty">
+				<div class="written-title">
+					<p class="section-title">Current design: what does the information mean?</p>
+				</div>
+				<div class="written">
+					<p class="text">When I asked users what they thought about the 'more information' tab, I got a couple of common feedback points. First, many readers have a general idea of the publisher, and did not consider this to be top level information.</p>
+
+					<p class="text">Second, 'more from this website' did not provide related posts to the article on-hand, which is what they would like to see as it would help readers determine the context of the post.</p> 
+
+					<p class="text">Lastly, the map in the tab holds little value as there are no map legends asides from indicating where it is shared. However, without understanding how or why the point of sharing may be important (eg. democratic state), users generally tend to overlook this feature.</p>
 				</div>
 			</div><!-- end of content-reframe -->
 
 			<video autoplay loop muted playsinline class="video-container">
-				<source src="assets/end2end/user-acc.mp4" type="video/mp4">
+				<source src="assets/fakenews/smart-reccos.mp4" type="video/mp4">
 			</video>
 
 			<div class="content-creation split">
 				<div class="written-title">
-					<p class="section-title">Remove ambiguity in the booking process.</p>
+					<p class="section-title">Smart reccos: explained.</p>
 				</div>
 				<div class="written">
-					<p class="text">In many other trip planning apps, the process is determined by choosing the hotel and the transportation (eg. flights). Sometimes this process is separate or linear, such as Expedia. However, if you decide to change one of your choices, you have to go back to that previous step to restart your booking.</p>
-					<p class="text">By adding the accomodations and transportation buttons along with the core parameter buttons of dates and guests, this allows users to easily see and adjust all the components of the booking process.</p>
+					<p class="text">The information button can alert a greater call-to-action by animating after a certain duration of time.</p>
+					<p class="text">To start, the information tab can show posts on the same topic but from different publishers and groups can help encourage the viewer to take in alternative perspectives.</p>
+					<p class="text">In addition, I wanted to change the order of information displayed in the 'information tab'. As a result of user feedback, I've noted that publisher information is still important, yet it should not be the top information displayed.</p>
+					<p class="text">One point of interest I discovered was that Facebook had an 'opinions' feature when you search for key terms, eg. Trump. I believe that this could be a useful feature because it allows users to share and view others' opinions (even if you're not in the same social circle).</p>
 				</div>
 			</div><!-- end of content creation -->
 
 			<video autoplay loop muted playsinline class="video-container">
-				<source src="assets/end2end/transport-airbnb.mp4" type="video/mp4">
+				<source src="assets/fakenews/fb_opinions.mp4" type="video/mp4">
 			</video>
 
 			<div class="content-creation split">
 				<div class="written-title">
-					<p class="section-title">Ease the transportation hassles. Make the trip seamless.</p>
+					<p class="section-title">Change from people's opinions to verified opinions.</p>
 				</div>
 				<div class="written">
-					<p class="text">In order to maintain transparency, I've included visible prices for each mode of transportation. This allows users to see which method of transport best suit their needs and budget, as well as give them a sense of flexibility. Although the departure times are set by the transportation companies, allowing alterations gives users a sense of personalization.</p>
-					<p class="text"> I've also included an automated vehicle pick-up time range that works in conjunction with the estimated time of arrival. However, this is adjustable and pick-up times can be delayed by the user. This function was created to streamline the transportation process, and allow users to get to their Airbnb efficiently.</p>
-					<p class="text">Both the outbound (leaving home) and inbound (returning home) transportation must be accounted before confirming payment. Finally, it's time to review and book the Weekend Break!</p>
+					<p class="text">One critique of the 'people's opinions' feature is that it may not be helpful because some users may post offensive or biased opinions. In addition, it might just show the perspectives of users that actually post things on their walls with the hashtagged term, which is not reflective of all opinions on Facebook.</p>
+					<p class="text">An alternative solution is to create a live, public discourse space where verified pages, figures and groups share opinions about a topic through their updated posts. This can help encourage more awareness of the topic discussed from multiple verified sources.</p>
 				</div>
 			</div><!-- end of content creation -->
 
-			<img src="assets/end2end/airbnb-review.jpg" alt="project-img" class="reason-img">
-
-			<p class="section-title break-top" id="section5">Future developments.</p>
-
-			<img src="assets/end2end/airbnb-bubbles.jpg" alt="project-img" class="reason-img">
+			<img src="assets/fakenews/past-reads.jpg" alt="project-img" class="reason-img">
 
 			<div class="content-reflection split">	
 				<div class="written-title">
-					<p class="section-title break-top">Heads-up: push notifications.</p>
+					<p class="section-title break-top">Past read insights: explained.</p>
 				</div>
 				<div class="written">
 
-					<p class="text">Pretty straightforward. It's important to let the users know during the process of transportation what to expect, and how the transportation has been pre-arranged for a smooth travel experience.</p>
-					<p class="text">In this concept, there would a notification for every point of transportation pass-off (eg. ferry departure, taxi pick-up/drop-off, etc.)</p>
-				</div>
-			</div><!-- end of content-reflection -->
-
-			<img src="assets/end2end/more-concerns.jpg" alt="project-img" class="reason-img">
-
-			<div class="content-reflection split">	
-				<div class="written-title">
-					<p class="section-title break-top">Dealing with increasing complications.</p>
-				</div>
-				<div class="written">
-					<p class="text">Right now, this design concept would optimally work best for local destinations that are approximately close to the user. This addresses the original goals of this project, which is to optimize the limited time and money constraints for many people who want to travel.</p>
-					<p class="text">However, if this were to expand globally, there needs to be further exploration into other features, such working with airlines, allowing last minute changes or giving alternative options for the users, and coordinating with more complex systems of transportations (eg. taxi to bus to flight).</p>
-				</div>
-			</div><!-- end of content-reflection -->
-
-			<div class="content-reflection split">
-				<p class="section-title break-top" id="section6">User feedback.</p>
-				<div class="written">
-					<p class="text">After this process, I decided to test these designs with some potential users.</p>
-					<p class="text">There were some enthusiatic "Yes, I would use this!" to "No, I'm not that interested". On the side of those who would use it, they pointed out how I could make the non-linear process of this design clearer. One alternative feature could be to include a timeline feature that the user can refer to as they create their Weekend Break.</p>
-					<p class="text">Another point of feedback was that money was still a big constraint for some users. With that, they mentioned that there could be a budget feature that will show them options within that selected budget, and/or show price comparison to other travel sites such as Expedia. However, I would argue that Airbnb is more for the experience and can justify a higher price tag, which may not support this budget feature.</p>
-					<!-- <p class="text"></p> -->
+					<p class="text">I think it might be helpful if Facebook automatically compiles articles that you’ve been reading (or even been exposed to), and sets a space where you can see (compare) what articles other people are reading.</p>
+					<p class="text">The purpose of this space to provide insights and opinions from different demographics (outside of your echo chamber). It can also help users realize their viewing patterns and habits. However, one difficulty could be matching appropriate recommendations to past reads, particularly if the content is political.</p>
 				</div>
 			</div><!-- end of content-reflection -->
 
 			<!-- this is a new section; needs to be filled still -->
-			<div class="content-notes split" id="section7">
+			<div class="content-notes split" id="section5">
 				<div class="written-title">
-					<p class="section-title break-top">Going forward.</p>
+					<p class="section-title break-top">What's next?</p>
 				</div>
 				<div class="written">
-					<p class="text">This project has taught me about the complexity of what may seem to be a simple problem/execution, and has uncovered a lot more questions than problems answered. It's important to understand what users want and what users need, and while users may want a concept like this - do they really need it? How likely is it that people tend to go on a staycation during a weekend? What will be the behind-the-scenes logistics look like for the company?</p>
-					<p class="text">Overall, it was fun to practice the visual design of Airbnb and really intriguing to play with the potential UX of something like the Weekend Break. Thanks for reading! &#9787;</p>
+					<p class="text">Ultimately, I believe a better focus is to gently encourage users to critically analyzeby easing the way information is presented on Facebook Newsfeed.</p>
+					<p class="text">Not only does this encourage better critical thinking for combatting fake news, these potential solutions will make it harder for fake content to pass as real news.</p>
+					<p class="text">Through this exploration, it has taught me to be careful of the subtle nuances in UX design, for example, how do you present information to users without being pushy? (eg. so that they don't leave one platform for another) Or allow the users to feel like they are in control of the information they are exposed to online in an unbiased way? Thanks for reading! &#9787;</p>
 				</div>
 			</div>
 
