@@ -173,6 +173,7 @@ p {
 #menu {
   display: none;
   width: 150px;
+  left: 50px;
 }
 
 /*#menu .menu ul li {
@@ -205,23 +206,25 @@ p {
   margin: 30px 0 30px 0;
 }
 
-/*.break-top {
-  padding-top: 75px;
-}*/
-
-.break-bottom {
-  padding-bottom: 75px;
+.break-top {
+  padding-top: 45px;
 }
 
+.break-bottom {
+  padding-bottom: 45px;
+}
+
+/*orginal is 75px*/
+
 .break {
-  padding: 75px 0 75px 0;
+  padding: 45px 0 45px 0;
 }
 
 
 .core {
   margin-top: 50px;
   margin: 0 auto;
-  max-width: 90%;
+  /*max-width: 95%;*/
 }
 
 
@@ -276,13 +279,12 @@ p {
 }
 
 .jump {
-  background-color: #FF6E38;
+  /*background-color: #FF6E38;*/
   width: 220px;
   text-align: center;
   padding: 10px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   margin-top: 60px;
-  /*margin-bottom: 15px;*/
 }
 
 .jump a {
@@ -291,39 +293,6 @@ p {
 
 .jump a:hover{
   color: black;
-}
-
-/*roles section*/
-
-.role-title {
-  font-weight: 450;
-  margin-bottom: 15px;
-  font-family: 'Space Mono', monospace;
-  font-size: 16px;
-  padding-top: 20px;
-}
-
-.roleo {
-  font-weight: 500;
-  font-family: 'Bai Jamjuree', sans-serif;
-  color: grey;
-  font-size: 14px;
-}
-
-.rolled {
-  font-size: 14px;
-/*  margin-top: 5px;*/
-  margin-bottom: 10px;
-  line-height: 25px;
-}
-
-.year-specific {
-  margin-bottom: 30px;
-}
-
-.year-name {
-  font-weight: 450;
-  margin-bottom: 2px;
 }
 
 .bottom {
@@ -370,6 +339,10 @@ p {
 
 @media screen and (min-width: 400px){
 
+.core {
+  max-width: 95%;
+}
+
 .page-nav {
   display: block;
 }
@@ -385,19 +358,19 @@ p {
 
 .header-all {
   /*max-width: 850px;*/
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .wrapper {
   /*max-width: 600px;*/
-  max-width: 650px;
+  max-width: 880px;
   margin: 0 auto;
 }
 
 .open-img {
-  margin-top: 130px;
+  margin-top: 110px;
 }
 
 /* split details */

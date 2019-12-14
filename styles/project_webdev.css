@@ -225,6 +225,10 @@ video {
   display: inherit;
 }
 
+.breaky {
+  padding: 45px 0 45px 0;
+}
+
 .type-title {
   margin-top: 0px;
 }
@@ -235,13 +239,13 @@ video {
 }
 
 .support-img {
-  width: 700px;
-  margin-bottom: 0px;
+/*  width: 700px;
+  margin-bottom: 0px;*/
   /*margin-bottom: 30px;*/
 }
 
 .project-img {
-  max-width: 800px;
+  /*max-width: 800px;*/
   margin: 0 auto;
   display: block;
   position: relative;
@@ -285,9 +289,9 @@ video {
   max-width: 400px;
 }
 
-.section-title {
+/*.section-title {
   margin-top: 70px;
-}
+}*/
 
 .showme a { position:relative; }
 

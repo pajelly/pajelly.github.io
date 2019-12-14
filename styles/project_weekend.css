@@ -1,20 +1,20 @@
 /* core styling changes */
 .wrapper {
   /*max-width: 600px;*/
-  max-width: 880px;
-  margin: 0 auto;
+  /*max-width: 880px;*/
+  /*margin: 0 auto;*/
 }
 
 .header-all {
   /*max-width: 850px;*/
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 20px;
+  /*max-width: 1000px;*/
+  /*margin: 0 auto;*/
+  /*margin-top: 20px;*/
 }
 
-#menu {
+/*#menu {
   left: 50px;
-}
+}*/
  /*case-menu @css line 79*/
 
 .indepth-no{
@@ -39,7 +39,7 @@
 }
 
 .open-img {
-  margin-top: 110px;
+  /*margin-top: 110px;*/
 }
 
 .reason-img {

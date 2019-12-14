@@ -6,6 +6,7 @@ body {
   /*background-color: #484A4B;*/
   background-color: #131313;
 } 
+
 a {
   text-decoration: none;
   /*color: white;*/
@@ -35,4 +36,8 @@ a:hover {
 .team-specifics {
   color: white;
 
+}
+
+.dark-show {
+  color: white;
 }
