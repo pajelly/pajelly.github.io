@@ -67,6 +67,12 @@ img {
   margin: 0 auto;
 }
 
+.intro-about img {
+  width: 80%;
+  margin-top: 40px;
+  margin: 0 auto;
+}
+
 p {
   font-size: 14px;
   line-height: 20px;
@@ -147,9 +153,13 @@ main {
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.written-title {
+  text-align: center;
+}
+
 .intro-about img {
-  width: 85%;
-  margin-top: 30px;
+  /*width: 90%;*/
+  margin-top: 40px;
 }
 
 .key-about {
@@ -264,10 +274,6 @@ font-size: 16px;
 
 @media screen and (min-width: 500px){
 
-  .intro-about img {
-    width: 75%;
-    margin-top: 30px;
-  }
 
   .key-about {
   margin-top: 30px;
@@ -288,13 +294,25 @@ font-size: 16px;
     margin: 0 auto;
   }
 
-  .intro-about img {
-    width: 40%;
-  }
-
   .key-about {
     padding: 0;
   }
+
+  /* split details */
+
+.written-title {
+  max-width: 400px;
+}
+
+.written {
+  max-width: 450px;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
   footer {
     padding: 40px;

@@ -171,6 +171,7 @@ p {
 
 .img_title p {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .img_description {
@@ -272,6 +273,10 @@ footer {
 .wrapper {
   max-width: 750px;
   margin: 0 auto;
+}
+
+.img_title p {
+  font-size: 28px;
 }
 
   .pics_01 img {
