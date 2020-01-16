@@ -213,6 +213,10 @@
 
 @media screen and (min-width: 680px){
 
+#menu {
+  margin-top: 60px;
+}
+
 .team-specifics {
   display: flex;
   justify-content: space-between;
