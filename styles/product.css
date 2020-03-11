@@ -32,6 +32,16 @@
   transform: translate(-50%, -50%);
 }
 
+.in-progress {
+  text-align: center;
+  background-color: #FFAB38;
+}
+
+.in-progress p {
+  font-size: 1.1em;
+  padding: 10px;
+}
+
 /* media queries */
 
 @media screen and (min-width: 680px){
