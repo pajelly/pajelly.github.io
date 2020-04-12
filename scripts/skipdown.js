@@ -36,6 +36,11 @@ function highlightSection() {
 
 highlightSection();
 
+// bold text
+
+$('.b').click(function(){
+  $(this).css({'font-weight':'bold'})
+})
 
 // hide side menu
 

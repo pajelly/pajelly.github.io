@@ -44,6 +44,7 @@ function highlightSection() {
 highlightSection();
 
 
+
 // hide side menu
 
 $(window).scroll(function() {
