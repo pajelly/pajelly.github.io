@@ -46,6 +46,11 @@ img {
   border-radius: 0.5%;
 }
 
+.side-img {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*text styling -- OVERVIEW*/
 
 .show-em {
@@ -57,7 +62,7 @@ margin-bottom: 50px;
 .overview {
 max-width: 800px;
 margin: 0 auto;
-border-bottom: 0.5px solid black;
+/*border-bottom: 0.5px solid black;*/
 }
 
 .role-text a {
@@ -73,13 +78,19 @@ color: black;
 }
 
 .written {
-	max-width: 510px;
+	max-width: 550px;
 }
 
 /*text styling -- CONTENT BLOCKS*/
 
 .focus {
 	margin-top: 20px;
+}
+
+.subtitle {
+	margin-top: 0;
+	color: orange;
+	font-size: 22px;
 }
 
 .text a {
@@ -89,7 +100,7 @@ color: black;
 /*rephrase -- NON-CORE ONLY*/
 
 .rephrase {
-	max-width: 880px;
+	max-width: 70%;
 }
 
 /*bottom -- RECCOS ONLY*/
@@ -181,12 +192,16 @@ justify-content: space-between;
 }
 
 .written-title {
-  max-width: 280px;
+  max-width: 230px;
 }
 
 .written-title p {
 line-height: 30px;
 }
+
+/*.side-img {
+	width: 80%;
+}*/
 
 }
 
