@@ -202,6 +202,12 @@ span {
   content: "\263A";
 }
 
+/*film styling*/
+.film {
+  margin: 0 auto;
+  text-align: center;
+}
+
 footer {
 padding: 20px;
 }
