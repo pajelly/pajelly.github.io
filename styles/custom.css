@@ -4,8 +4,8 @@ body {
 
 #navbar {
   overflow: hidden;
-  /*background-color: white;*/
-  background: transparent;
+  background-color: white;
+  /*background: transparent;*/
   /*background: rgb(255, 255, 255, 0.9)*/
   /*opacity: 0.95;*/
 /*  text-align: center;*/
@@ -48,7 +48,7 @@ body {
 .navbar {
 display: inline-block;
 padding: 0;
-width: 100%
+/*width: 80%;*/
 }
 
 /*custom non bs styling*/
@@ -61,6 +61,17 @@ width: 100%
 padding: 15px;
 max-width: 800px;
 margin: 0 auto;
+}
+
+.special-container {
+  max-width: 1000px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 670px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -84,6 +95,16 @@ border-bottom: 0.5px solid black;
 	color: orange;
 }
 
+.each {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.first-text {
+  margin-top: 15px;
+}
 
 
 /* specific media queries */
@@ -105,21 +126,24 @@ border-bottom: 0.5px solid black;
 
 .core {
 	margin-top: 200px;
-	max-width: 70%; }
+	max-width: 80%; }
 
-.container-fluid {
+/*.container-fluid {
 	display: flex;
 	justify-content: space-between;
-}
+}*/
 
 h1 {
 	font-size: 2rem;
-	max-width: 210px;
 }
 
 .text {
 	line-height: 25px;
 }
+
+/*.each {
+    margin-top: 0px;
+}*/
 	
 }
 

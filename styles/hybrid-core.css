@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
   margin: 0;
   background-color: #fff;
   -webkit-animation: fadein 2.5s;
@@ -51,6 +52,10 @@ img {
   padding-right: 15px;
 }
 
+.open-img {
+  margin-top: 15px;
+}
+
 /*text styling -- OVERVIEW*/
 
 .show-em {
@@ -67,6 +72,7 @@ margin: 0 auto;
 
 .role-text a {
 color: black;
+text-decoration: underline;
 }
 
 .role-text a:hover {
@@ -78,7 +84,7 @@ color: black;
 }
 
 .written {
-	max-width: 550px;
+	max-width: 670px;
 }
 
 /*text styling -- CONTENT BLOCKS*/
@@ -159,6 +165,17 @@ padding: 15px;
 }
 }
 
+@media screen and (min-width: 520px){
+
+.sub-content {
+  display: flex; 
+  flex-direction: column;
+/*  justify-content: space-around;*/
+}
+
+}
+
+
 @media screen and (min-width: 720px){
 
 .header-all {
@@ -171,14 +188,14 @@ padding: 15px;
 /*  max-width: 880px;*/
   margin-top: 100px;
   margin: 0 auto;
-  max-width: : 800px;
+  max-width: : 900px;
 }
 
 #navbar {
 	display: block; }
 
 .core {
-	max-width: : 800px;
+	/*max-width: : 800px;*/
 	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
@@ -189,6 +206,8 @@ padding: 15px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin: 0 auto;
+max-width: 670px;
 }
 
 .written-title {
@@ -197,6 +216,16 @@ justify-content: space-between;
 
 .written-title p {
 line-height: 30px;
+}
+
+.sub-content {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subsection {
+  width: 100%;
 }
 
 /*.side-img {
