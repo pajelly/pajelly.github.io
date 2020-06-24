@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   /*display:flex;*/
   background-color: #fff;
@@ -66,7 +66,7 @@ img {
 }
 
 p {
-  font-size: 18px;
+  font-size: 2em;
  /* line-height: 20px;*/
   letter-spacing: 0.5px;
   margin: 0;
@@ -98,7 +98,8 @@ p {
 
 .name-logo a {
   text-decoration: none;
-  font-family: 'Gotu', sans-serif;
+  /*font-family: neue-haas-grotesk-display, sans-serif;*/
+  /*font-family: 'Gotu', sans-serif;*/
   font-size: 1.4em;
   color: black;
 }
@@ -403,7 +404,7 @@ p {
 
 .wrapper {
   /*max-width: 600px;*/
-  max-width: 880px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -443,18 +444,6 @@ p {
 
 /*title font size change*/
 
-
-/* original font*/
-/*.text {
-  font-size: 16px;
-  line-height: 30px;
-}*/
-
-/*.text {
-  font-size: 15px;
-  line-height: 25px;
-}
-*/
 .project-title {
   font-size: 1.9em;
 }
@@ -479,11 +468,6 @@ p {
   text-align: left;
 }
 
-/*.role-title {
-  font-weight: 450;
-  margin-bottom: 10px;
-}*/
-
 .year-specific {
   margin-bottom: 30px;
 }
@@ -494,7 +478,7 @@ p {
 }
 
 .bottom {
-  max-width: 880px;
+  max-width: 1100px;
 }
 
 .other-title {
