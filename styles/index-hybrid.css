@@ -344,7 +344,10 @@ footer p {
 
 .content-text {
   display: block;
-  /*padding: 15px;*/
+}
+
+.case-type {
+  margin-top: 215px;
 }
 
 .container {
