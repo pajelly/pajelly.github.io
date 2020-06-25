@@ -328,7 +328,7 @@ footer p {
 }
 
 .header-all {
-  width: 94%;
+  width: 90%;
 }
 
 /* general row styling */
@@ -344,6 +344,57 @@ footer p {
 
 .content-text {
   display: block;
+  /*padding: 15px;*/
+}
+
+.container {
+  width: 350px;
+}
+
+.filter {
+  width: 350px;
+}
+
+/* mobile styling */
+
+video {
+  width: 350px;
+  height: 420px;
+}
+
+.img-container {
+  width: 350px;
+  height: 420px;
+}
+
+}
+
+@media screen and (min-width: 420px){
+.logos {
+    margin-right: 20px;
+}
+
+.name-lead {
+  line-height: 40px;
+}
+
+.header-all {
+  width: 94%;
+}
+
+/* general row styling */
+.p-row-01 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-row-02 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-text {
+  padding: 15px;
 }
 
 /* mobile styling */
@@ -356,6 +407,10 @@ video {
 .img-container {
   width: 420px;
   height: 420px;
+}
+
+.filter {
+  width: 420px;
 }
 
 }
@@ -428,14 +483,14 @@ main {
 /*container styling*/
 
 .container {
-  width: 480px;
+  width: 450px;
   height: 320px;
   position: relative;
   margin: 0 0 30px 0;
 }
 
 video {
-  width: 480px;
+  width: 450px;
   height: 320px;
   overflow: hidden;
   position: absolute;
@@ -443,7 +498,7 @@ video {
 }
 
 .img-container {
-  width: 480px;
+  width: 450px;
   height: 320px;
   overflow: hidden;
   position: absolute;
@@ -468,7 +523,7 @@ video {
 /* hover overlay styling */
 
 .filter {
-  width: 480px;
+  width: 450px;
   height: 320px;
   
 }
