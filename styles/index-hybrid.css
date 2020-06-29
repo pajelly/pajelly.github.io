@@ -78,6 +78,13 @@ p {
   margin: 0;
 }
 
+.spark {
+    /*font-family: Moche-Regular;*/
+    /*color: grey;*/
+    font-family: Mazius-Display;
+    
+}
+
 .title {
   position: relative;
 }
@@ -650,6 +657,7 @@ footer {
 .column-03 {
   width: 200px;
   text-align: end;
+}
 }
 
 
