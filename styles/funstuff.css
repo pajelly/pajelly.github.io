@@ -153,3 +153,9 @@ main {
 }
 
 }
+
+@media screen and (min-width: 1400px){
+	.noshow {
+		margin-top: 155px;
+	}
+}
