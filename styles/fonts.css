@@ -1,22 +1,34 @@
 @font-face {
-    font-family: 'Moche-Regular';
-    src: url('../fonts/Moche-Regular.eot');
-    src: url('../fonts/Moche-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Moche-Regular.woff') format('woff'),
-         url('../fonts/Moche-Regular.ttf') format('truetype'),
-         url('../fonts/Moche-Regular.svg#Moche-Regular') format('svg');
+    font-family: 'AppleGaramond-Italic';
+    src: url('../fonts/AppleGaramond-Italic.eot');
+    src: url('../fonts/AppleGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AppleGaramond-Italic.woff') format('woff'),
+         url('../fonts/AppleGaramond-Italic.ttf') format('truetype'),
+         url('../fonts/AppleGaramond-Italic.svg#AppleGaramond-Italic') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'Mazius-Display';
-    src: url('../fonts/Mazius-Display-Italic.eot');
-    src: url('../fonts/Mazius-Display-Italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Mazius-Display-Italic.woff') format('woff'),
-         url('../fonts/Mazius-Display-Italic.ttf') format('truetype'),
-         url('../fonts/Mazius-Display-Italic.svg#Mazius-Display-Italic') format('svg');
+    font-family: 'AppleGaramond-LightItalic';
+    src: url('../fonts/AppleGaramond-LightItalic.eot');
+    src: url('../fonts/AppleGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AppleGaramond-LightItalic.woff') format('woff'),
+         url('../fonts/AppleGaramond-LightItalic.ttf') format('truetype'),
+         url('../fonts/AppleGaramond-LightItalic.svg#AppleGaramond-LightItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url('../fonts/AppleGaramond.eot');
+    src: url('../fonts/AppleGaramond.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AppleGaramond.woff') format('woff'),
+         url('../fonts/AppleGaramond.ttf') format('truetype'),
+         url('../fonts/AppleGaramond.svg#AppleGaramond') format('svg');
     font-weight: normal;
     font-style: normal;
 
