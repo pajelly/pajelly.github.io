@@ -68,7 +68,7 @@ img {
   display: block;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 1%;
+  /*border-radius: 1%;*/
 }
 
 p {
@@ -79,7 +79,7 @@ p {
 }
 
 .spark {
-  font-family: AppleGaramond-LightItalic;
+/*  font-family: AppleGaramond-LightItalic, serif;*/
 }
 
 .title {

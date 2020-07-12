@@ -1,14 +1,21 @@
+img {
+  margin-top: 60px;
+}
+
 .headline {
   font-size: 2.8em;
   margin-top: 300px;
   line-height: 48px;
   margin: 0 auto;
-  width: 620px;
 }
 
 .more {
-	margin-top: 200px;
-	margin-bottom: 400px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pick {
+  margin-bottom: 30px;
 }
 
 .focus {
@@ -17,11 +24,10 @@
 
 .explain {
   font-size: 3.3em;
-  padding-top: 200px;
+  padding-top: 40px;
   margin-bottom: 60px;
   line-height: 60px;
   margin: 0 auto;
-  width: 800px;
 }
 
 .sub-explain {
@@ -29,7 +35,6 @@
   padding-top: 20px;
   line-height: 40px;
   margin: 0 auto;
-  width: 800px;
   color: #44454D;
 }
 
@@ -49,41 +54,70 @@
 	padding-bottom: 60px;
 }
 
-.video-container {
-	width: 600px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 60px;
-}
+/*media queries*/
+
+@media screen and (min-width: 320px){
 
 video {
-  width: 600px;
+  width: 320px;
   height: auto;
   overflow: hidden;
   object-fit: cover;
 }
 
-/*media queries*/
-
-@media screen and (min-width: 320px){
-
-/*	img {
-		width: 320px;
-	}*/
-
-	/*.headline {
-	  font-size: 2em;
-	  margin-top: 300px;
-	  line-height: 38px;
-	  margin: 0 auto;*/
-}
-
+.video-container {
+  /*width: 600px;*/
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
 }
 
 
-@media screen and (min-width: 320px){ 
+}
+
+@media screen and (min-width: 820px){
 
 
+.more {
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+
+.sub-explain {
+  font-size: 2em;
+  padding-top: 20px;
+  line-height: 40px;
+  margin: 0 auto;
+/*  width: 800px;*/
+  color: #44454D;
+}
+
+.explain {
+  font-size: 3.3em;
+  padding-top: 200px;
+  margin-bottom: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+/*  width: 800px;*/
+}
+
+
+.video-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/*video {
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}*/
 
 
 }
+
+
+
