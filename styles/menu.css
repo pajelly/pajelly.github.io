@@ -68,10 +68,14 @@ html {
 /*test end HEREEEEEEEEEEEEEEEEEE*/
 
 /*personal test*/
+#navbar a:hover {
+    color: #4266F8;
+}
 
-
-
-
+/*#navbar a.sticky.now {
+    color: #4266F8;
+}
+*/
 /* end of personal test*/
 
 #menu a {
