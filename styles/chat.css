@@ -77,6 +77,9 @@ video {
 
 @media screen and (min-width: 820px){
 
+.headline {
+  max-width: 600px;
+}
 
 .more {
   margin-top: 100px;
@@ -101,6 +104,10 @@ video {
 /*  width: 800px;*/
 }
 
+.grouped {
+  max-width: 600px;
+}
+
 
 .video-container {
   width: 600px;
@@ -109,12 +116,12 @@ video {
   padding-top: 60px;
 }
 
-/*video {
+video {
   width: 600px;
   height: auto;
   overflow: hidden;
   object-fit: cover;
-}*/
+}
 
 
 }
