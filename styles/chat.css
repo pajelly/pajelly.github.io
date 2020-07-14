@@ -123,6 +123,11 @@ video {
   object-fit: cover;
 }
 
+.content-block {
+  display: flex;
+  flex-direction: row;
+}
+
 
 }
 
