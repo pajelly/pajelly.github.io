@@ -73,7 +73,7 @@ hr.divider {
 }
 
 .main-title {
-	font-size: 3em;
+	font-size: 3.2em;
 	line-height: 1em;
 	margin-bottom: 30px;
 	font-family: font-family: neue-haas-grotesk-text, sans-serif;
@@ -114,6 +114,10 @@ hr.divider {
 	font-weight: 500;
 	font-style: normal;
 	margin-top: 20px;
+}
+
+.focus {
+	color: #4266F8;
 }
 
 
