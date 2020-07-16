@@ -26,7 +26,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  height: 100px;
+  height: 110px;
   transition: top 0.35s ease-in-out;
   z-index: 7000;
   background-color: white;
