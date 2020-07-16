@@ -83,8 +83,8 @@
   	<a href="#section3">Product Goals</a>
   	<a href="#section4">Wireframes: User Flow</a>
   	<a href="#section5">Visual Mockups</a>
-  	<a href="#section6">Final Designs</a>
-	<a href="#section7">Future Considerations</a>
+  	<a href="#section6">Next Steps</a>
+	<!-- <a href="#section7">Future Considerations</a> -->
 </div>
 
 
@@ -96,7 +96,7 @@
 
 <img src="assets/operations/prompt-marked.png" alt="project-img" class="img-right img-usual">
 
-<p class="main-title" id="section2">Key User <span class="focus">Insights &#8623;</span></p>
+<p class="main-title" id="section2">Key User <span class="focus">Insights</span></p>
 
 <p class="summary">A quick brainstorm of the prompt allowed me to understand that I was designing for both the individuals reporting the issues, as well as the management resolving the issues. This led me to conduct interviews and surveys with both sides - campus-goers, and school operations/management.</p>
 
@@ -176,24 +176,155 @@
 	</div> -->
 </div>
 
-<img src="assets/operations/features.png" alt="project-img" class="img-right classic-bottom img-usual">
+<img src="assets/operations/design.png" alt="project-img" class="img-right classic-bottom img-usual">
 
 <!-- <img src="assets/operations/designer.png" alt="project-img" class="img-right classic-bottom"> -->
 
-<div class="content-block" id="section3">
+<!-- <div class="content-block bullet" id="section3">
 	<div class="content-left match">
 		<p class="main-title">Product <span class="focus">goals (3)</span></p>
 		<p class="summary">With these insights in mind, I decided that the primary goals should ease the process of reporting, receiving and updating requests. Also keep in mind accessibility issues.</p>
-		<p class="inside-title">• Appropriate colour contrast <br>
-			• Clear form structure for ease of use <br>
-			• Alternative modes of accessibility for users eg. alt text for PWA <br>
-			• Consider non-english speaking users</p>
+		<img src="assets/operations/goals.png" alt="project-img" class="img-right classic-bottom">
 	</div>
 	<div class="img-right img-space">
-		<img src="assets/operations/goals.png" alt="project-img" class="img-right classic-bottom">
+		<p class="bullet-title">• Appropriate colour contrast <br>
+			• Clear form structure for ease of use <br>
+			• Alternative modes of accessibility for users eg. alt text for PWA <br>
+			• Consider non-english speaking users<br><br>
+		</p>
+	</div>
+</div> -->
+
+<span id="section3"></span>
+
+<div class="content-block coloured-dark">
+	<div class="content-left">
+		<p class="main-title">Product <span class="focus">goals (3)</span></p>
+		<p class="inner-para">With these insights in mind, I decided that the primary goals should ease the process of reporting, receiving and updating requests. Also keep in mind accessibility issues.</p>
+		<p class="main-title">1)Help students report issues quickly and easily<br>2)Allow campus workers to recieve their assigned tasks directly<br>3)Indicate an issue fix/completion status</p>
+		<p class="inner-par reframe">That led to the question of: which digital platform?</p>
+	</div>
+</div> 
+
+
+<p class="main-title extra-top" id="section4">Wireframes: <span class="focus">User Flow</span></p>
+
+<div class="content-block coloured">
+	<div class="content-left">
+		<p class="inside-title">Create a solution that is applicable to a wide range of campus facilities issues.</p>
+		<p class="inner-para">During my brainstorming, I thought about different methods of reporting, such as buttons, a built-in wall interface, alert sensors or apps.</p>
+		<p class="inner-para">The most optimal solution from that was a <b>digital platform</b>, as buttons, sensors or interfaces would mean that they are powered or limited to buildings. Those applications won’t be useful for reporting issues such as fallen trees or snow blockage.</p>
+		<p class="inner-par reframe">That led to the question of: which digital platform?</p>
+	</div>
+
+<!-- 	<div class="img-right img-space">
+	  <img src="assets/operations/cleaners.png" alt="project-img" class="img-right classic-bottom">
+	</div> -->
+</div>
+<div class="content-block coloured-white">
+	<div class="content-left">
+		<p class="inside-title">User interviews indicated that most students would not download an app.</p>
+		<p class="inner-para">The method of reporting should be accessible and flexible for it to be quick and easy to use. This indicated to me that building the student portal as a <b>Progressive Web App (PWA)</b> would be the most optimal solution as it is fast to build, easy to maintain, and send data securely.</p>
+		<p class="inner-para">However, for the management portal, an app would be a better choice as the requests are daily, more functions need to be performed and the facilities system is complex.</p>
+		<p class="inner-par reframe">A PWA provided an optimal solution, as the onboarding process for reporting problems can begin by using the phone camera to scan a QR code.</p>
+		<p class="inner-para toptext">In addition, QR codes can be added anywhere (eg. washroom, outside on a post, at school parking lots, etc.) and can be easily updated. Certain QR codes can also implement geotags, which can further reduce the friction to reporting.</p>
+		<p class="inner-para">I did not choose a mandatory log-in to school account process because my interviews indicated that students would like an option as to include their identity in a request. A log-in would also take more time and discourage students to report facility issues.</p>
+	</div>
+	<div class="img-right square">
+	  <img src="assets/operations/QR-code.jpg" alt="project-img" class="img-right">
 	</div>
 </div>
 
+<img src="assets/operations/onboard.png" alt="project-img" class="img-right classic-bottom">
+
+
+<p class="main-title extra-top">For <span class="focus">Students:</span></p>
+
+<p class="main-title">An analysis of interview data, contextual understanding and user behaviour narrowed the PWA features into 3 problem categories: common issues, specific issues and emergencies.</p>
+
+<img src="assets/operations/common-issue.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/common-details.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/specific-issue.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/specific-details.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<p class="main-title extra-top">For <span class="focus">Operations & Management</span></p>
+
+<p class="summary">Through the replies from UBC and  secondary research, I know that campus operations are managed by many departments, such as: trades,  municipal services, custodial services, customer services and more. Each department takes care of different campus facilities and operations.</p>
+
+<p class="summary">Maintenance workers are assigned to designated buildings/campus zones.</p>
+<p class="summary">For this exercise, I will focus on designing an interface geared towards custodians. This means that requests made for a certain building/zone will fall under an assigned custodian’s role. However, for different services, the interfaces will be altered appropriately  to reflect their specializations.
+</p>
+
+<img src="assets/operations/custodian-app.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/app-details.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/view-only.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/action-only.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+
+<p class="main-title" id="section5">Visual: <span class="focus">Mockups</span></p>
+
+<img src="assets/operations/student-portal.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/ops-portal.jpg" alt="project-img" class="img-right classic-bottom img-usual">
+
+<img src="assets/operations/validation.png" alt="project-img" class="img-right classic-bottom" id="section6">
+
+<div class="content-block coloured-white">
+	<div class="content-left">
+		<p class="inside-title">Future Considerations: Status & Desktop</p>
+		<p class="inner-para">The interfaces for messages, history and settings were not created since they will be similar to what a user might typically expect  from an app. The history page is simply a record of their resolved requests.</p>
+		<p class="inner-para">For the status updates, I’ve created a desktop version of what it might look like for students. The desktop version will be an expanded version of the PWA.</p>
+		<p class="inner-para">When a student is roaming on the map, it will show other submitted requests around on campus.</p>
+		<p class="inner-para">The current status, request type, location and date will be shown. If there was more time, user testing can be done to see if a feature like this would be something students check on their phones.</p>
+		<!-- <p class="inner-par reframe">A PWA provided an optimal solution, as the onboarding process for reporting problems can begin by using the phone camera to scan a QR code.</p>
+		<p class="inner-para toptext">In addition, QR codes can be added anywhere (eg. washroom, outside on a post, at school parking lots, etc.) and can be easily updated. Certain QR codes can also implement geotags, which can further reduce the friction to reporting.</p>
+		<p class="inner-para">I did not choose a mandatory log-in to school account process because my interviews indicated that students would like an option as to include their identity in a request. A log-in would also take more time and discourage students to report facility issues.</p> -->
+	</div>
+	<div class="img-right square">
+	  <img src="assets/operations/update.jpg" alt="project-img" class="img-right shadow">
+	</div>
+</div>
+
+<div class="content-block coloured">
+	<div class="content-left">
+		<p class="inside-title">But what about student motivation?</p>
+		<p class="inner-para">After the wireframes were created, I tried to gain quick user feedback  by asking a couple students what they think of the PWA portal. </p>
+		<p class="inner-para">Most of them commented at the ease of use, but some also commented that they would still not report campus facility issues due to low social responsibility and that they would avoid the issue.</p>
+		<p class="inner-para">To encourage student motivation, school campuses can increase awareness about the cost of facility maintenance (eg. $10, 000 a year is spent on facility repairs. By keeping our school clean and maintained, we can re-allocate these funds to updating our swimming pool.) Rewards or prizes through the PWA can also be an additional incentive.</p>
+	</div>
+
+<!-- 	<div class="img-right img-space">
+	  <img src="assets/operations/cleaners.png" alt="project-img" class="img-right classic-bottom">
+	</div> -->
+</div>
+
+<div class="content-block coloured-white">
+	<div class="content-left">
+		<p class="inside-title">Measuring impact!</p>
+		<p class="inner-para">For students: that could mean how many reports have been made, what are the analytics for the PWA and whether the experiences of campus-goers have improved due to better facility management.</p>
+		<p class="inner-para">For operations: has the workflow improved? are reduncies removed? $$ saved for the school due to more efficient facility management?</p>
+		<p class="inner-para">If I could further explore this, I would like to investigate how the designs I made will impact the system of campus maintenance, and whether that holds significant value. I’m also curious about how this incorporates service design, and whether this is accessible for people with different needs (who cannot use a phone and QR code to report issues).</p>
+		<p class="inner-para">This was a fun experience that encouraged me to think about the greater ecosystem that the problem exists in, and how to approach a solution that might not have the greatest user motivation!</p>
+	</div>
+	<div class="img-right square">
+	  <img src="assets/operations/bananas.gif" alt="project-img" class="img-right">
+	</div>
+</div>
+
+<!-- <hr>
+
+<div class="other">
+	<p class="inside-title">Other projects</p>
+	<p class="proj-title">coming soon</p>
+	<p class="proj-title">coming soon</p>
+	<p class="proj-title">coming soon</p>
+</div> -->
 
 
 </div><!-- end of inner -->
