@@ -54,6 +54,27 @@ img {
 	padding-bottom: 60px;
 }
 
+hr.divider {
+  border: solid 1px black;
+  margin-bottom: 30px;
+}
+
+.type-title {
+  font-family: degular-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.role-text {
+  margin-bottom: 30px;
+}
+
+.last {
+  margin-bottom: 30px;
+}
+
 /*media queries*/
 
 @media screen and (min-width: 320px){
@@ -83,6 +104,16 @@ video {
 .more {
   margin-top: 100px;
   margin-bottom: 400px;
+}
+
+.spaced {
+  margin-bottom: 200px;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .sub-explain {
