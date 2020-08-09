@@ -97,6 +97,14 @@ p {
   margin: 0 auto;
 }
 
+/*instant update*/
+.type-title {
+  font-family: degular-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
 
 /*header styling*/
 
@@ -191,6 +199,12 @@ footer p {
   margin: 0 auto;
 }
 */
+
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 main {
   margin: 0 auto;
