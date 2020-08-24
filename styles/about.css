@@ -100,7 +100,7 @@ html {
 	flex-direction: column;
 }
 
-#peep #show img {
+/*#peep #show img {
 	display: none;
 }
 
@@ -115,7 +115,7 @@ html {
 
 #show #top img {
 	left: 600px;
-}
+}*/
 
 /*#show img {
 	position: absolute;

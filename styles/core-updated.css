@@ -43,6 +43,10 @@ img {
 	margin-top: 30px;
 }*/
 
+.middle-brief {
+	max-width: 400px;
+}
+
 .type-title {
 	font-family: degular-display, sans-serif;
 	font-weight: 500;
@@ -88,6 +92,10 @@ hr.divider {
 
 .summary {
 	margin-bottom: 10px;
+}
+
+.para-break {
+	margin-top: 20px;
 }
 
 .third-title {
@@ -222,6 +230,20 @@ body {
 	width: 85%;
 }
 
+video {
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.video-container {
+  /*width: 600px;*/
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
 
 }
 
@@ -325,6 +347,41 @@ body {
 .extra-top {
 	margin-top: 200px;
 }
+
+.summary-wide {
+	width: 50%;
+}
+
+.video-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+video {
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.expand-collapse {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.expand-collapse div {
+  padding: 0;
+  margin: -2px 0 0 0;
+}
+.expand-collapse h3 {
+  background-color: #ccc;
+  cursor:  pointer;
+  padding: 20px;
+  margin: 0 0 2px;
+}
+
 
 }
 

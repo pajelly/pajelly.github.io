@@ -72,8 +72,8 @@ img {
 }
 
 p {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 24px;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -237,7 +237,7 @@ footer {
 }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1250px){
 /*
 .wrapper {
   max-width: 1300;
@@ -293,4 +293,5 @@ main {
   /*max-width: 900px;*/
   margin: 0 auto;
 }
+
 }
