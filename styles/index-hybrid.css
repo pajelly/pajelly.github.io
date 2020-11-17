@@ -79,7 +79,8 @@ p {
 }
 
 .spark {
-/*  font-family: AppleGaramond-LightItalic, serif;*/
+  font-family: orpheuspro, serif;
+  font-style: italic;
 }
 
 .title {

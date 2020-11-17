@@ -24,6 +24,14 @@ html {
   line-height: 1.5em;
 }
 
+.linked a {
+  color: #344EDD;
+}
+
+.linked a:hover {
+	color: #848CB8;
+}
+
 .featured {
 	margin-top: 300px;
 	display: flex;
