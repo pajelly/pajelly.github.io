@@ -1,0 +1,333 @@
+
+
+/* other general styling */
+
+.client-link {
+font-size: 16px;
+/*text-decoration: underline;*/
+/*color: #2E4469;*/
+/*background-color: #FF6E38;*/
+/*width: 400px;*/
+/*font-weight: 600;*/
+}
+
+.client-link {
+  margin-bottom: 0;
+}
+
+.client-link a {
+  color: #FF6E38;
+}
+
+.showme {
+  font-size: 16px;
+  color: #FF6E38;
+  letter-spacing: 0.5px;
+}
+
+.showdis {
+  padding-top: 5px;
+}
+
+.showdat {
+  padding-bottom: 20px;
+}
+
+.big-goal {
+  color: #FF6E38;
+  font-size: 2em;
+}
+
+.caption {
+  font-size: 15px;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+.decorate {
+  padding: 5px;
+  background-color: white;
+  /*border-radius: 5%;*/
+}
+
+.marked {
+  background-color: #545454;;
+}
+
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*#client:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}*/
+
+/*.showme a { position:relative; }
+.showme a span { position:absolute; display:none; z-index:99; }
+.showme a:hover span { display:block; 
+*/
+
+/*.shownow {
+  display: none;
+}*/
+
+
+
+/* start of specific changes */
+
+.project-title {
+color: white;
+/*font-family: 'Arimo', sans-serif;*/
+font-family: 'Bai Jamjuree', sans-serif;
+/*font-family: 'monument_extendedregular', sans-serif;*/
+/* GOOD */
+
+}
+
+.section-title {
+  margin-top: 10px;
+  color: white;
+}
+
+.goodies {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.role-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+.roleo {
+  font-weight: 500;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: grey;
+  font-size: 17px;
+}
+
+.rolled {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.team-specifics a {
+  color: #F36040;
+}
+
+.internal-link {
+  color: #F69675;
+}
+
+.goal-title {
+  font-weight: 500;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: grey;
+  font-size: 17px;
+  padding-top: 20px;
+}
+
+
+.type-title {
+	margin-top: 50px;
+}
+
+
+/*font-family: 'Gaegu', cursive;*/
+/*SO FUCKING CUTE */
+
+/*font-family: 'Overpass Mono', monospace;*/
+/*font-family: 'Noto Sans JP', sans-serif;}*/
+
+.text {
+	color: #ECECEC;
+  margin-bottom: 15px;
+}
+
+.clear-img {
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.content-img {
+  width: 400px;
+}
+
+/*.secondary-type {
+  padding-top: 30px;
+}*/
+
+.specific-support {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+
+.shownow {
+  display: none;
+}
+
+.summary {
+  margin-top: 50px;
+}
+
+.showshow {
+  color: #FFC033;
+}
+
+
+
+
+/* specific media queries */
+
+@media screen and (min-width: 320px){
+
+  video {
+    width: 300px;
+  }
+
+ 
+}
+
+@media screen and (min-width: 400px){
+
+}
+
+@media screen and (min-width: 680px){
+
+video {
+  /*max-width: 450px;*/
+  margin: 0 auto;
+  display: inherit;
+}
+
+.breaky {
+  padding: 45px 0 45px 0;
+}
+
+.type-title {
+  margin-top: 0px;
+}
+
+.clear-img {
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.support-img {
+/*  width: 700px;
+  margin-bottom: 0px;*/
+  /*margin-bottom: 30px;*/
+}
+
+.project-img {
+  /*max-width: 800px;*/
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.big-cover {
+  margin-top: 300px;
+}
+
+
+.big-cover1 {
+  margin-top: 200px;
+}
+
+.big-cover1 img {
+  display: block;
+}
+
+.small-img {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#laptop-img {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+
+
+/*.sidebyside {
+  display: flex;}*/
+
+.phone-cover {
+  max-width: 400px;
+}
+
+/*.section-title {
+  margin-top: 70px;
+}*/
+
+.showme a { position:relative; }
+
+.showme a span { position:absolute; display:none; z-index:99; left: 190px; top: -190px;}
+
+.showme a:hover span { display:block; width: 300px;
+}
+
+.shownow {
+  display: block;
+}
+
+.shownow img {
+  width: 300px;
+}
+
+.showme2 a span { position:absolute; display:none; z-index:99; left: 130px; top: -40px;}
+}
+
+.bottom {
+  width: 100%;
+}
+
+
+@media screen and (min-width: 1000px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+
+
+
+
+
+
+

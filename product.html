@@ -1,0 +1,199 @@
+<!-- SITE BY PEIJIA DING © 2020 // pajelly.github.io -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peijia Ding - Smart Soles</title>
+	<link rel="stylesheet" href="styles/core_style.css">
+	<link rel="stylesheet" href="styles/case-menu.css">
+	<link rel="stylesheet" href="styles/bottom-other.css">
+<!-- 	<link rel="stylesheet" href="styles/g_design.css"> -->
+	<link rel="stylesheet" href="styles/product.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono|Fira+Mono|Bai+Jamjuree:300,400,500,600|Open+Sans&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon-pj.png">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146140505-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146140505-1');
+</script>
+
+</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="nav-down">
+				<div class="header-all">
+					<div class ="name-logo">
+						<h3><a href="index.html">PJ.</a></h3>
+					</div>
+					<div id="nav" class="nav">
+						<nav class="page-nav">
+							<ul>
+								<li><a href="index.html" class="active">works</a></li>
+								<li><a href="about.html">about</a></li>
+							</ul>
+						</nav>
+					</div><!-- end of nav bar -->
+				</div><!-- end of header all section -->		
+			</header>
+
+		<main class="core">
+
+		<span class="mobile-hide">
+			<ul id="menu" class="menu">
+				<li><a href="#section2">&#8702; Problem scope</a></li>
+				<li><a href="#section3">&#8702; Prototype V1</a></li>
+				<li><a href="#section4">&#8702; Product demo</a></li>
+				<li><a href="#section5">&#8702; Future plans</a></li>
+			</ul>
+		</span>
+		
+
+		<img src="assets/product/ss-thin.jpg" alt="project-img" class="open-img">
+		<div class="in-progress"><p>This stuff is outdated. Updating version 2 right now.</p></div>
+
+		
+
+		<div class="overview split gap">
+			<div class="written-title">
+				<p class=project-title></p>
+				<p class="type-title">Research & Design</p>
+			</div>	
+			<div class="written">
+				<p class="text"><b>Falls are a leading cause of injuries and deaths in seniors. In the states, 1 senior dies every 19 minutes as a result of a fall.</b><a href="https://www.ncoa.org/news/resources-for-reporters/get-the-facts/falls-prevention-facts/"> (U.S. Centers for Disease Control and Prevention)</a></p>
+				<p class="text">One of my courses this year is <a href="http://design.engineering.ubc.ca/design-courses/new-venture-design/">New Venture Design</a> and in this course, my team and I are creating a <b>smart wearable insole that tracks balance and makes smart exercise recommendations for seniors.</b></p>
+			</div>
+		</div><!-- end of overview -->
+
+			<div class="content-start split">
+				<div class="written-title">
+					<p class="section-title" id="section2">Problem scope.</p>
+				</div>
+
+				<div class="written">
+					<p class="text highlight">Seniors are an underrepresented and undercatered part of demographics in many countries. More specifically, the issue of senior health is highly reactive (eg. treating the problem once it has occured) versus preventative treatment. We noticed that many seniors and healthcare practioners only cared about the dangers of falls once a fall has occured, and at that stage - the senior individual has already suffered a <b>loss in quality of life</b> due to surgery, recovery, permanent damage, etc. </p>
+
+					<p class="text">After over 100 interviews with seniors, healthcare providers and adult children, we have pinpointed these key features for our product.</p>
+				</div><!-- end of written -->
+			</div><!-- end of content-start -->
+			
+			<img src="assets/product/wider-product.jpg" alt="project-img" class="side-img">
+
+			<div class="split">
+			<div class="written-title">
+					<p class="section-title" id="section3">Prototype V1.</p>
+				</div>
+				<div class="written">
+					<p class="text">To quickly build and break our idea, we decided to apply to nwHacks 2020 and create our first prototype. We are able to build a working model for both the hardware and software in less than 24 hours.</p>
+				</div>
+			</div>
+
+			<div class="split">
+			<div class="written-title">
+					<p class="section-title" id="section3">How it works.</p>
+				</div>
+				<div class="written">
+					<p class="text">The sensors in our smart sole collects the user's balance data. This data is sent to our algorithm and is interpreted into good or bad balance. The data is then sent back to our companion app and displayed to the user. Depending on the balance score, appropriate exercise recommendations will be made for the user.</p>
+				</div>
+			</div>
+
+			<div class="split">
+			<div class="written-title">
+					<p class="section-title">Hardware.</p>
+				</div>
+				<div class="written">
+					<p class="text">Arduino UNO & Force-sensing Resistors.</p>
+				</div>
+			</div>
+			
+			<div class="content-discovery split">
+				<div class="written">
+					<img src="assets/product/sole-in.jpg" alt="project-img" class="show-img">
+				</div>
+				<div class="written">
+					<img src="assets/product/sole-out.jpg" alt="project-img" class="show-img">
+				</div>
+			</div><!-- end of content-discovery -->
+
+			<div class="split break-top">
+			<div class="written-title">
+					<p class="section-title">Software.</p>
+				</div>
+				<div class="written">
+					<p class="text">Keras, Google App Engine, ReactNative, Javascript, HTML, Python, Time Series Analysis, Recurrent Neural Network.</p>
+				</div>
+			</div>
+
+			<img src="assets/product/sole-app.jpg" alt="project-img" class="project-img">
+			<p class="text">I created the UX/UI design of our app and implemented them into ReactNative, which I have never used before. By the end of the hackathon, we had 3 screens which displayed the relevent information of our first app prototype. </p>
+		
+			<p class="section-title break-top" id="section4">Product demo.</p>
+			<video autoplay loop muted playsinline class="video-container" id="section4">
+				<source src="assets/product/SmartSoleNoAudio.mp4" type="video/mp4">
+			</video>
+
+
+		<p class="section-title break-top">Future plans:</p>
+
+			<div class="split" id="section5">
+				<div class="written">
+					<img src="assets/product/product-group.jpg" alt="project-img" class="side-img">
+				</div>
+				<div class="written">
+					<p class="text group-text">Working on version 2 of our product. Expected March 2020.</p>
+					<p class="text group-text">For our follow reiteration, we plan to collect more accurate data, training/refining our algorithm, working on the form factor of the sole, improving the design and conducting user tests. Overall, the hackathon was a great way for us to quickly build and improve - now we know what to do for v2! Stay tuned.</p>
+				</div>
+			</div>
+
+		<div class="bottom">
+			<p class="other-title"><span class="notice">Other projects</span></p>
+
+			<!-- project rec 1 -->		
+					<div class="showmenow project-next">
+						<p class="recommend project-subtitle"><a href="fbnewsv2.html" class="showmenow no-link">Facebook & Fake News<span><img src="images/bottom-fb.jpg" alt="project-img poof" class="shownow"></a></span></p>
+						<p class="project-description">Redesigning for fake news.</p>
+					</div>
+
+			<!-- project rec 2 -->
+
+					<div class="showmenow p2 project-next">
+						<p class="recommend project-subtitle"><a href="weekend.html" class="showmenow no-link">Airbnb<span><img src="images/wb-index.jpg" alt="project-img poof" class="shownow"></a></span></p>
+						<p class="project-description">Exploring an end-to-end travel experience.</p>
+					</div>
+
+			<!-- project rec 3 -->
+					<div class="showmenow p3 project-next">
+						<p class="recommend project-subtitle"><a href="floral.html" class="showmenow no-link">Fun stuff<span><img src="images/tiny-flower.jpg" alt="project-img poof" class="shownow"></a></span></p>
+						<p class="project-description">Designing with flowers.</p>
+					</div>
+
+		</div>
+		<!-- end of bottom (other projects) -->
+			
+			
+		<footer>
+			<div class="cr">
+				<!-- <p>&copy; 2019 Peijia Ding</p> -->
+				<p class="hide">&copy; 2020 Peijia Ding. Coded with &#9825;.</p>
+			</div>
+		</footer>
+
+		</main>	
+	</div><!-- end of wrapper -->
+
+	<!-- scripts here -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+		<script src="scripts/skipdown.js"></script>
+
+</body>
+
+</html>

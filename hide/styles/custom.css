@@ -1,0 +1,161 @@
+body {
+    position: relative; 
+  }
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  /*background: transparent;*/
+  /*background: rgb(255, 255, 255, 0.9)*/
+  /*opacity: 0.95;*/
+/*  text-align: center;*/
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color:#9399A5;  
+  color: white;
+}
+
+#navbar a.active {
+  /*background-color: orange;*/
+  background-color: white;
+  color: #5B7DF7;
+  font-style: italic;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 250px;
+}
+
+.navbar {
+display: inline-block;
+padding: 0;
+/*width: 80%;*/
+}
+
+/*custom non bs styling*/
+
+.core {
+	margin-top: 100px;
+}
+
+/*.own-container {
+padding: 15px;
+max-width: 800px;
+margin: 0 auto;
+}*/
+
+/*.special-container {
+  max-width: 1000px;
+  padding: 15px;
+  margin: 0 auto;
+}*/
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+font-family: aktiv-grotesk-extended, sans-serif;
+}
+
+h3 {
+line-height: 25px;
+text-align: center;
+padding: 50px;
+color: gray;
+border-top: 0.5px solid black;
+border-bottom: 0.5px solid black;
+}
+
+.woohoo a {
+	color: grey;
+}
+
+.woohoo a:hover {
+	color: orange;
+}
+
+.each {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-family: aktiv-grotesk-extended, sans-serif; 
+}
+
+.first-text {
+  margin-top: 15px;
+}
+
+
+/* specific media queries */
+
+@media screen and (min-width: 320px){
+#navbar {
+    display: none; } 
+}
+
+@media screen and (min-width: 720px){
+
+#navbar {
+	display: block; }
+
+.space {
+	margin-top: 80px;
+	display: block;
+}
+
+.core {
+	margin-top: 200px;
+	max-width: 1000px; 
+}
+
+/*.container-fluid {
+	display: flex;
+	justify-content: space-between;
+}*/
+
+h1 {
+	font-size: 2rem;
+}
+
+.text {
+	line-height: 25px;
+}
+
+/*.each {
+    margin-top: 0px;
+}*/
+	
+}
+
+@media screen and (min-width: 1300px){
+
+  .core {
+  margin-top: 200px;
+  max-width: 1200px; 
+}
+}
+

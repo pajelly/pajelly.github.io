@@ -1,0 +1,48 @@
+.video-container-test {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.video-container-test > video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+@media screen and (max-aspect-ratio: 1920/1080) {
+  .video-container-test > video {
+    height: 100%;
+  }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+  .video-containe-test > video {
+    width: 100%;
+  }
+}
+
+#newvideo {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* media queries */
+
+@media screen and (min-width: 320px){
+  #newvideo {
+    margin-top: 10px;
+  }
+  
+}
+
+@media screen and (min-width: 1200px){
+  #newvideo {
+    margin-top: 160px;
+  }
+  
+}

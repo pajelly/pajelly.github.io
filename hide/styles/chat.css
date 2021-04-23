@@ -1,0 +1,196 @@
+img {
+  margin-top: 60px;
+}
+
+.headline {
+  font-size: 2.8em;
+  margin-top: 300px;
+  line-height: 48px;
+  margin: 0 auto;
+}
+
+.more {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pick {
+  margin-bottom: 30px;
+}
+
+.focus {
+  color: #4266F8;
+}
+
+.explain {
+  font-size: 3.3em;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+
+.sub-explain {
+  font-size: 2em;
+  padding-top: 20px;
+  line-height: 40px;
+  margin: 0 auto;
+  color: #44454D;
+}
+
+.star {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.dot {
+	width: 160px; 
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.badge {
+  width: 180px; 
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.badgeup {
+  padding-top: 30px;
+}
+
+.badges {
+  padding-bottom: 40px;
+}
+
+.inner {
+	padding-bottom: 60px;
+}
+
+hr.divider {
+  border: solid 1px black;
+  margin-bottom: 30px;
+}
+
+.type-title {
+  font-family: degular-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.role-text {
+  margin-bottom: 30px;
+}
+
+.last {
+  margin-bottom: 30px;
+}
+
+/*media queries*/
+
+@media screen and (min-width: 320px){
+
+video {
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.video-container {
+  /*width: 600px;*/
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+}
+
+@media screen and (min-width: 820px){
+
+.headline {
+  max-width: 600px;
+}
+
+.more {
+  margin-top: 100px;
+  margin-bottom: 400px;
+}
+
+.spaced {
+  margin-bottom: 200px;
+}
+
+.spacedbadge {
+  margin-bottom: 140px;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-explain {
+  font-size: 2em;
+  padding-top: 20px;
+  line-height: 40px;
+  margin: 0 auto;
+/*  width: 800px;*/
+  color: #44454D;
+}
+
+.explain {
+  font-size: 3.3em;
+  padding-top: 200px;
+  margin-bottom: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+/*  width: 800px;*/
+}
+
+.badges {
+  padding-bottom: 80px;
+}
+
+.badgesbot {
+  padding-top: 40px;
+}
+
+.badgeup {
+  padding-top: 0px;
+}
+
+.grouped {
+  max-width: 600px;
+}
+
+
+.video-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+video {
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: row;
+}
+
+
+}
+
+
+

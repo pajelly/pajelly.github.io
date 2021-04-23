@@ -1,4 +1,4 @@
- // intro box effect 
+// intro box effect 
 
 window.onscroll = function() {myFunction()};
 
