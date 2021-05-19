@@ -1,0 +1,89 @@
+
+/*@keyframes fadeout {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}*/
+
+.other-title {
+  margin-top: 100px;
+  border-top: 1px solid white;
+  padding-top: 40px;
+}
+
+
+
+.recommend {
+  font-size: 18px;
+  /*font-style: italic;*/
+  
+}
+
+.recommend a:hover {
+  color: #6B6B6B;
+}
+
+.shook a {
+  color: #FF240A;
+}
+
+.shook a:hover {
+  color: #6B6B6B;
+}
+
+.project-next {
+	margin-top: 40px;
+}
+
+.shownow {
+	display: none;
+}
+
+.project-description {
+  color: white;
+}
+
+@media screen and (min-width: 680px){
+
+.showmenow p { position:relative; }
+
+.showmenow p span { position:absolute; display:none; z-index:99; left: 400px; top: -90px;}
+
+.showmenow p:hover span { display:block; width: 350px;}
+
+.shownow {
+  display: block;
+}
+
+.p2 p span { position:absolute; display:none; z-index:99; left: 420px; top: -120px;}
+
+.p3 p span { position:absolute; display:none; z-index:99; left: 400px; top: -200px;}
+
+
+#menu {
+  -webkit-animation: fadein 2.5s;
+  -moz-animation: fadein 2.5s;
+}
+
+#menu {
+    /*-webkit-animation: fadeout 1s;*/
+    /*animation: fadeout 2.5s;*/
+}
+/*
+#menu.hide {
+  -webkit-animation: fadeout 2.5s;
+  -moz-animation: fadeout 2.5s;
+
+}*/
+
+/*transition: opacity 1s ease-out;*/
+.other-title {
+  font-size: 24px;
+  color: #9399A5;
+}
+
+
+
+}
+
+
+

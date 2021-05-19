@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* dark theme changes to top core elements*/
+
+body {
+  /*background-color: #484A4B;*/
+  background-color: #131313;
+} 
+
+a {
+  text-decoration: none;
+  /*color: white;*/
+  color: white;
+}
+
+a:hover {
+  /*color: black;*/
+  color: rgba(167, 167, 167);
+}
+
+.name-logo a {
+  color: orange;
+}
+
+.name-logo a:hover {
+  /*color: white;*/
+  color: rgba(167, 167, 167);
+}
+
+/* content styling */
+
+.role-title {
+  color: white;
+}
+
+.team-specifics {
+  color: white;
+
+}
+
+.dark-show {
+  color: white;
+}

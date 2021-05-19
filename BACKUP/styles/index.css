@@ -14,15 +14,9 @@ body {
   /*background-color: #F8F8F8;*/
   background-color: #fff;
   /*font-family: 'Avenir', sans-serif;*/
-font-family: 'Space Mono', monospace;
+  font-family: 'Bai Jamjuree', sans-serif;
   -webkit-animation: fadein 2.5s;
   -moz-animation: fadein 2.5s;
-
-   background-image: url('https://media.giphy.com/media/qjj4xrA1STjfa/giphy.gif');
-    background-size: cover;
-    height: 100vh;
-    padding:0;
-    margin:0;
 }  
 
 header {
@@ -42,8 +36,9 @@ header {
 }
 
 a {
-/*  text-decoration: none;*/
-  color: white;
+  text-decoration: none;
+  /*color: white;*/
+  color: black;
 }
 
 a:hover {
@@ -81,16 +76,6 @@ p {
 .wrapper {
   margin: 20px;
 }
-
-.solo {
-  color: white;
-  font-size: 40px;
-  line-height: 46px;
-  max-width: 80%;
-  margin: 0 auto;
-  padding-top: 30%;
-}
-
 
 .nav-up {
     top: -90px;
